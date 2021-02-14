@@ -1,0 +1,93 @@
+#EXTM3U
+#EXTINF:23, Первый HD
+http://23.111.81.228:1893/ch-659/video.m3u8?token=test
+#EXTINF:0, Россия 1 HD
+http://23.111.81.228:1893/ch-660/video.m3u8?token=test
+#EXTINF:0, Дом Кино Премиум HD
+http://myott.top/stream/DIPK8H19CP8/108.m3u8
+#EXTINF:0, Дорама HD
+http://sc.id-tv.kz:80/dorama_hd_34_35.m3u8
+#EXTINF:0, Киносвидание HD
+#EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/9) HlsWinkPlayer
+http://sc.id-tv.kz/Kinosvidanie_hd_34_35.m3u8
+#EXTINF:0, Кинокомедия HD
+http://23.111.81.228:1893/ch-141/video.m3u8?token=test
+#EXTINF:0, Кинопремьера HD
+http://23.111.81.228:1893/ch-626/video.m3u8?token=test
+#EXTINF:0, Кинохит HD
+http://sc.id-tv.kz/Kinohit_hd_34_35.m3u8
+#EXTINF:24,Amedia Premium HD
+http://23.111.81.228:1893/ch-662/video.m3u8?token=test
+#EXTINF:180, AIVA HD
+http://strm.yandex.ru/kal/aiva/aiva0_169_1080p.json/index-v1-a1.m3u8
+#EXTINF:0,FAN HD
+http://hls.goodgame.ru/hls/157239.m3u8
+#EXTINF:20, ViP Megahit HD
+http://23.111.81.228:1893/ch-396/video.m3u8?token=test
+#EXTINF:0, ViP Premiere HD
+http://23.111.81.228:1893/ch-620/video.m3u8?token=test
+#EXTINF:0, ViP Comedy HD
+http://23.111.81.228:1893/ch-624/video.m3u8?token=test
+#EXTINF:0, FOX HD
+http://23.111.81.228:1893/ch-656/video.m3u8?token=test
+#EXTINF:0, FOXlife HD
+http://23.111.81.228:1893/ch-657/video.m3u8?token=test
+#EXTINF:0, Hustler HD
+http://23.111.81.228:1893/ch-663/video.m3u8?token=test
+#EXTINF:0, ТНТ HD
+http://23.111.81.228:1893/ch-736/video.m3u8?token=test
+#EXTINF:0, НТВ HD
+http://23.111.81.228:1893/ch-798/video.m3u8?token=test
+#EXTINF:0, Private HD
+http://23.111.81.228:1893/ch-843/video.m3u8?token=test
+#EXTINF:0, Звезда HD
+https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
+#EXTINF:0, VIP HORROR HD
+http://cdnnow.goodgame.ru/hls/178234.m3u8
+#EXTINF:0,VHS
+https://autopilot.catcast.tv/content/37925/index.m3u8
+#EXTINF:0,TVOE TV HD
+http://stream-norst.cf:8080/tvoetv/index.m3u8
+#EXTINF:0,Классика кино (Movie Classic) 720
+https://strm.yandex.ru/kal/kinoclassic/kinoclassic0_169_720p.json/index-v1-a1.m3u8
+#EXTINF:0,1HD (Musik-TV) 1080
+https://strm.yandex.ru/kal/1hd/1hd0_169_1080p.json/index-v1-a1.m3u8
+#EXTINF:0,О2ТВ 1080
+https://strm.yandex.ru/kal/o2/o20_169_1080p.json/index-v1-a1.m3u8
+#EXTINF:0,Amedia Hit HD
+https://sc.id-tv.kz/amedia_hit_hd_34_35.m3u8
+#EXTINF:0,Кино ТВ HD
+http://194.156.166.2:8000/play/a03n
+#EXTINF:0,FANTASTIKA HD
+https://cdnnow.goodgame.ru/hls/181070.m3u8
+#EXTINF:0,ФАНТАСТИКА Sci-Fi
+https://autopilot.catcast.tv/content/38801/index.m3u8
+#EXTINF:0,ПАМЯТЬ
+https://autopilot.catcast.tv/content/38821/index.m3u8
+#EXTINF:0,МультСказки
+https://autopilot.catcast.tv/content/38850/index.m3u8
+#EXTINF:0,УЖАСТИК
+https://autopilot.catcast.tv/content/38896/index.m3u8
+#EXTINF:0,ВСЁ ВКЛЮЧЕНО
+https://autopilot.catcast.tv/content/39161/index.m3u8
+#EXTINF:0,TRANCE IS STAR
+https://autopilot.catcast.tv/content/391/index.m3u8
+#EXTINF:0,Оплот24 HD
+http://185.114.136.25/oplot-tv
+#EXTINF:0,1 Республиканский HD
+http://185.114.136.25/first-republic-tv
+#EXTINF:0,Новороссия HD
+http://185.114.136.25:80/novorossia-tv
+#EXTINF:0, Eurodance 90 HD
+https://eurodance.catcast.tv/content/36987/index.m3u8
+#EXTINF:0, SC TV FHD
+https://cdnnow.goodgame.ru/hls/61358.m3u8
+#EXTINF:0, Русская Америка HD
+https://stream.russianamerica.tv/ratv/index.m3u8
+#EXTINF:60, TV 5 MONDE EUROPE
+http://v3plusinfo247hls-i.akamaihd.net/hls/live/218877/v3plusinfo247hls/v3plusinfo247hls_1_1.m3u8
+#EXTINF:37,фантастика HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0
+http://hls.goodgame.ru/hls/181070.m3u8
+#EXTINF:20,Мосфильм. Золотая коллекция HD
+http://31.128.159.41:8080/mosfilm/index.m3u8
