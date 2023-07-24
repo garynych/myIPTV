@@ -1,0 +1,115 @@
+#EXTM3U url-tvg="https://iptvx.one/EPG"
+
+#EXTINF:-1 group-title="Addons",Россия 1 HD
+https://tvnow.best/api/stream/ashtonchandler33@gmail.com/949617/livetv.epg/rossiya.1.ru.m3u8
+#EXTINF:-1 group-title="Addons",Первый канал HD
+http://31.134.132.245:8080/ort_hd/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="solovjinypomiot" tvg-name="Соловьёв live" tvg-logo="https://picon.ml/solovjinypomiot.png" group-title="Addons", Соловьёв live HD
+http://cdn-lb.iptv2022.com/p/OesQx2EWRb_Wx8ZUNNd09g,1684353707/streaming/solovyevlive/324/1/tracks-v3a1/mono.m3u8
+#EXTINF:-1 tvg-id="izvestia" tvg-name="Известия HD" tvg-logo="https://app.playlistbox.com/icon/l64rgEeNLQpPAxOw9mx7Yav3GnwkqmBz.png" group-title="Addons", Известия HD
+http://igi-hls.cdnvideo.ru/igi/igi_tcode/tracks-v1a1/index.m3u8
+#EXTINF:-1 group-title="Addons",Звезда HD
+https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
+#EXTINF:-1 group-title="Addons",НТВ HD
+https://tvnow.best/api/stream/ashtonchandler33@gmail.com/949617/livetv.epg/ntv.ru.m3u8
+#EXTINF:-1 group-title="Addons",СТС HD
+https://tvnow.best/api/stream/ashtonchandler33@gmail.com/949617/livetv.epg/sts.ru.m3u8
+#EXTINF:-1 group-title="Addons",ТНТ HD
+https://tvnow.best/api/stream/ashtonchandler33@gmail.com/949617/livetv.epg/tnt.ru.m3u8
+#EXTINF:-1 group-title="Addons",РЕН HD
+https://okkotv-live.cdnvideo.ru/channel/Rentv_HD_OTT/1080p.m3u8
+#EXTINF:-1 group-title="Addons",Мир HD
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
+#EXTINF:-1 group-title="Addons",2х2
+https://bl.uma.media/live/317805/HLS/4614144_3,2883584_2,1153024_1/1613019214/3754dbee773afc02014172ca26d3bb79/playlist.m3u8
+#EXTINF:-1 group-title="Addons",360 HD
+http://edge-tv-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/1080.m3u8
+#EXTINF:-1 group-title="Addons",360 Новости HD
+http://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/1080.m3u8
+#EXTINF:-1 group-title="Addons",ICTV HD
+http://portal.ott.pink/watch/13/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
+#EXTINF:-1 group-title="Addons",Еспресо HD
+http://portal.ott.pink/watch/10/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
+#EXTINF:-1 group-title="Addons",Дорама HD
+http://myott.top/stream/43S3PXPQ32/412.m3u8
+#EXTINF:-1 group-title="Addons",Мосфильм. Золотая коллекция HD
+https://stream-msk-05.ott.tricolor.tv:443/dtv/id711_MSKSG-PVR-1--Mosfilm_HD/03/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiIzODA0MDkwMjMxNjA2NyIsImV4cCI6MTY2MTg4MTM2MSwiaHdpZCI6IjQ0ZDgyYTNhZGExNmFhNjU2OTljODFjNzEyMGM3MjZmNDIwOWUxNzJlYjBiY2VhMTQ0ZGI5ZWVkZDQyZGRhMWIiLCJsYXN0X3JlcV9kYXRlIjoxNjYxMjc2NTYxLCJzZXNzaW9uX2lkIjoiYWQzODMyOTUzOTQ1NGVlYTkzOTNiYTlhNTg2YjNhODgiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.7JfXppFVsL-GEqi1rW7z_b7_x_iaSbX-6K-hQiZTX1I
+
+#EXTINF:-1 group-title="Addons",Amedia 1 HD
+https://cdn-cache01.voka.tv:443/live/1500.m3u8
+#EXTINF:-1 group-title="Addons",Amedia 2 HD
+https://cdn-cache01.voka.tv:443/live/171.m3u8
+#EXTINF:-1 group-title="Addons",Amedia hit HD
+http://am01.spr24.net/270/mpegts?token=deYfRE52qVzhEB
+#EXTINF:-1 group-title="Addons",Amedia premium HD
+http://am01.spr24.net/258/mpegts?token=deYfRE52qVzhEB
+#EXTINF:-1 group-title="Addons",Кинопоказ HD
+http://3kaki9qu.russtv.net/iptv/ZMSF7SSRAUEFQH/2439/index.m3u8
+#EXTINF:-1 group-title="Addons",Fox HD
+http://3kaki9qu.russtv.net/iptv/ZMSF7SSRAUEFQH/19216/index.m3u8
+#EXTINF:0 group-title="Addons" tvg-name="ch104"  tvg-logo="http://troya.today/images/chIcons/104.png"  timeshift="3", Fox life HD
+http://11.troya.today:34000/ch104/mono.m3u8?token=bondblack.qJwvRuYFNQJiOuU8qJxNeDFqNjf7MdSV5ugDfxySq-IXZTkua6TfR0u95hmAJPmz
+#EXTINF:-1 group-title="Addons",Феникс плюс кино HD
+http://am01.spr24.net/350/mpegts?token=deYfRE52qVzhEB
+#EXTINF:-1 group-title="Addons",Viasat kino comedy HD
+http://91.233.215.250:7272/5RqMvVnGzdoBQbf
+#EXTINF:-1 group-title="Addons",Твоё ТВ HD
+http://tvoetv.space:8080/tvoetv/index.m3u8
+#EXTINF:-1 group-title="Addons",Кино и сериалы HD
+https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/tracks-v5a1/mono.m3u8
+#EXTINF:-1 group-title="Addons",BCU СССР HD
+http://217.107.34.114:8006/playlist.m3u8
+
+
+#EXTINF:-1 group-title="Addons",KinoJam 1 HD
+http://am01.spr24.net/7008/mpegts?token=deYfRE52qVzhEB
+#EXTINF:-1 group-title="Addons",KinoJam 2 HD
+http://am01.spr24.net/7009/mpegts?token=deYfRE52qVzhEB
+
+#EXTINF:-1 group-title="Addons",Дом кино Премиум HD
+http://46.151.151.245:10007/play/a009
+#EXTINF:-1 group-title="Addons",Комедийное HD
+https://tvnow.best/api/stream/ashtonchandler33@gmail.com/949617/livetv.epg/kinopokaz.hd.2.ru.m3u8
+#EXTINF:-1 group-title="Addons",Кинопремьера HD
+https://tvnow.best/api/stream/ashtonchandler33@gmail.com/949617/livetv.epg/kinopremera.ru.m3u8
+#EXTINF:-1 group-title="Addons",Киноужас HD
+http://baefb22b.ucomist.net/iptv/X2QNFHL35MF388/2056/index.m3u8
+#EXTINF:-1 group-title="Addons",Наше новое кино HD
+http://baefb22b.ucomist.net/iptv/X2QNFHL35MF388/19231/index.m3u8
+#EXTINF:-1 group-title="Addons",Мужское кино HD
+http://22436a48.amazzin.pw/iptv/C9AAQCDMRHSBAF/9138/index.m3u8
+
+
+#EXTINF:-1 group-title="Addons",Русский север HD
+http://185.186.142.16/rs/1080/s.m3u8
+#EXTINF:-1 group-title="Addons",Hollywood HD
+https://tvnow.best/api/stream/ashtonchandler33@gmail.com/949617/livetv.epg/mgm.ru.m3u8
+#EXTINF:-1 group-title="Addons",.red HD
+https://tvnow.best/api/stream/ashtonchandler33@gmail.com/949617/livetv.epg/sony.channel.ru.m3u8
+#EXTINF:-1 group-title="Addons"  tvg-logo="http://troya.today/images/chIcons/17.png"  timeshift="3", Viju TV 1000 HD
+
+http://11.troya.today:34000/ch017/mono.m3u8?token=bondblack.qJwvRuYFNQJiOuU8qJxNeB8ftkyxRxLeozgMaR9XqiW7o60bQtUaQYx53H1ItpNb
+#EXTINF:-1 group-title="Addons"  tvg-logo="http://troya.today/images/chIcons/18.png"  timeshift="3", Viju TV 1000 Action HD
+
+http://11.troya.today:34000/ch018/mono.m3u8?token=bondblack.qJwvRuYFNQJiOuU8qJxNeGCrVEMrlkOm0LtvYH6UwEkZRhq4l4D7fqrkn6pUkV3q
+#EXTINF:-1 group-title="Addons"  tvg-logo="http://troya.today/images/chIcons/13.png"  timeshift="3", Viju TV 1000 Русское HD
+
+http://11.troya.today:34000/ch013/mono.m3u8?token=bondblack.qJwvRuYFNQJiOuU8qJxNePikRIGwmqA2CenSu-MMR_bk1t2SdOaEuVlHwbe-I97p
+#EXTINF:-1 group-title="Addons",Viju+ Megahit HD
+https://tvnow.best/api/stream/ashtonchandler33@gmail.com/949617/livetv.epg/vip.megahit.ru.m3u8
+#EXTINF:-1 group-title="Addons",Viju+ Premiere HD
+https://tvnow.best/api/stream/ashtonchandler33@gmail.com/949617/livetv.epg/vip.premiere.ru.m3u8
+#EXTINF:-1 group-title="Addons",Viju+ Comedy HD
+http://85.11.144.9:4222/VIPCOMEDYHD?token=test
+#EXTINF:-1 group-title="Addons",Viju+ Serial HD
+http://94.229.250.73:8008/play/a003
+
+#EXTINF:-1 group-title="Addons",Звезда плюс HD
+http://stv.mediacdn.ru/live/cdn/zvezdaplus/playlist_hdhigh.m3u8
+
+#EXTINF:-1 group-title="Addons",Univer HD
+http://cdn.universmotri.ru/live/univer.sdp_1080p/playlist.m3u8
+#EXTINF:-1 group-title="Addons",VH-1 HD
+http://content.uplynk.com/channel/36953f5b6546464590d2fcd954bc89cf.m3u8
+#EXTINF:-1 group-title="Addons",RU TV HD
+https://hls-03-video.webcaramba.com/rutv/live_1080/index.m3u8
