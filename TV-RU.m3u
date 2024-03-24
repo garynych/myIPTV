@@ -1,47 +1,1399 @@
-﻿#EXTM3U
-#EXTINF:-1 group-title="МОСКВА",Первый канал (Москва)
-http://dmi3y-tv.ru/hls/zabava/region/MOS/CH_1TV.m3u8
-#EXTINF:-1 group-title="МОСКВА",Россия 1 (Москва)
-http://dmi3y-tv.ru/hls/zabava/region/MOS/CH_ROSSIA1.m3u8
-#EXTINF:-1 group-title="МОСКВА",Матч! (Москва)
-http://dmi3y-tv.ru/hls/zabava/region/MOS/CH_MATCHTV.m3u8
-#EXTINF:-1 group-title="МОСКВА",НТВ (Москва)
-http://dmi3y-tv.ru/hls/zabava/region/MOS/CH_NTV.m3u8
-#EXTINF:-1 group-title="МОСКВА",Пятый канал (Москва)
-http://dmi3y-tv.ru/hls/zabava/region/MOS/CH_5TV.m3u8
-#EXTINF:-1 group-title="МОСКВА",Россия К (Москва)
-http://dmi3y-tv.ru/hls/zabava/region/MOS/CH_ROSSIAK.m3u8
-#EXTINF:-1 group-title="МОСКВА",Россия 24 (Москва)
-http://dmi3y-tv.ru/hls/zabava/region/MOS/CH_ROSSIA24.m3u8
-#EXTINF:-1 group-title="МОСКВА",Карусель (Москва)
-http://dmi3y-tv.ru/hls/zabava/region/MOS/CH_KARUSEL.m3u8
-#EXTINF:-1 group-title="МОСКВА",ОТР (Москва)
-http://dmi3y-tv.ru/hls/zabava/region/MOS/CH_OTR.m3u8
-#EXTINF:-1 group-title="МОСКВА",ТВЦ (Москва)
-http://dmi3y-tv.ru/hls/zabava/region/MOS/CH_TVC.m3u8
-#EXTINF:-1 group-title="МОСКВА",РЕН ТВ (Москва)
-http://dmi3y-tv.ru/hls/zabava/region/MOS/CH_RENTV.m3u8
-#EXTINF:-1 group-title="МОСКВА",СТС (Москва)
-http://dmi3y-tv.ru/hls/zabava/region/MOS/CH_STS.m3u8
-#EXTINF:-1 group-title="МОСКВА",Домашний (Москва)
-http://dmi3y-tv.ru/hls/zabava/region/MOS/CH_DOMASHNIY.m3u8
-#EXTINF:-1 group-title="МОСКВА",ТВ3 (Москва)
-http://dmi3y-tv.ru/hls/zabava/region/MOS/CH_TV3.m3u8
-#EXTINF:-1 group-title="МОСКВА",Пятница! (Москва)
-http://dmi3y-tv.ru/hls/zabava/region/MOS/CH_FRIDAY.m3u8
-#EXTINF:-1 group-title="МОСКВА",Звезда (Москва)
-http://dmi3y-tv.ru/hls/zabava/region/MOS/CH_ZVEZDA.m3u8
-#EXTINF:-1 group-title="МОСКВА",ТНТ (Москва)
-http://dmi3y-tv.ru/hls/zabava/region/MOS/CH_TNT.m3u8
-#EXTINF:-1 group-title="МОСКВА",Че! (Москва)
-http://dmi3y-tv.ru/hls/zabava/region/MOS/CH_CHE.m3u8
-#EXTINF:-1 group-title="МОСКВА",Ю (Москва)
-http://dmi3y-tv.ru/hls/zabava/region/MOS/CH_U.m3u8
-#EXTINF:-1 group-title="МОСКВА",Солнце (Москва)
-http://dmi3y-tv.ru/hls/zabava/region/MOS/CH_DISNEY.m3u8
-#EXTINF:-1 group-title="МОСКВА",Москва 24 (Москва)
-http://dmi3y-tv.ru/hls/zabava/region/MOS/CH_MOSKVA24.m3u8
-#EXTINF:-1 group-title="МОСКВА",Москва Доверие (Москва)
-http://dmi3y-tv.ru/hls/zabava/region/MOS/CH_MOSKVADOVERIE.m3u8
-#EXTINF:-1 group-title="МОСКВА",ТЕО ТВ HD (Москва)
-http://dmi3y-tv.ru/hls/zabava/region/MOS/CH_TEOTVHD.m3u8
+#EXTM3U catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" catchup-record-source="?utcstart=${start}&utcend=${end}" 
+
+
+#EXTINF:-1 group-title="КИНО",Театр HD
+https://s25617.cdn.ngenix.net/mdrm/CH_THEATERHD/manifest.mpd?token=X3MTE4NWI3NDE0YWQ1ZThmYTk4ZTg2ZmU4M2M2YjNiNjA
+
+#EXTINF:-1 group-title="Познавательные",HDL HD
+https://s25617.cdn.ngenix.net/mdrm/CH_HDLHD/manifest.mpd$OPT:adaptive-use-avdemux$OPT:avdemux-options={decryption_key=28e2712e2fb350cecf804390bc8ed8e4}
+
+#EXTINF:-1 group-title="КИНО",САПФИР HD
+https://s25617.cdn.ngenix.net/mdrm/CH_C04_FOXLIFEHD/manifest.mpd?token=JBZDQ5ZTA3NmQ4MjU1MWU4YzdhYTUzNWU5M2E1NDk1MGU
+#EXTINF:-1 group-title="КИНО",КИНОХИТ HD
+https://s25617.cdn.ngenix.net/mdrm/CH_KINOHITHD/manifest.mpd?token=ZfOTZlODE5ZmQxY2JiYzUwMjJiMTI1Y2NhZGU0NTVhYzE
+
+#EXTINF:-1 group-title="КИНО",Киноужас HD
+https://s25617.cdn.ngenix.net/mdrm/CH_KINOUZHASHD/manifest.mpd?token=B6NTljNzVlNmE5MjUwZWEyNDViMjQ0OWFkODI5YWQwZDM
+
+#EXTINF:-1 group-title="КИНО",КИНОСЕРИЯ HD
+https://s25617.cdn.ngenix.net/mdrm/CH_KINOSERIAHD/manifest.mpd?token=LzZTI2NmNjMGM0OWUzMzVlZGM2MGNjN2YwNDUwZT
+
+
+#EXTINF:-1 group-title="КИНО",КИНОСЕМЬЯ HD
+https://s25617.cdn.ngenix.net/mdrm/CH_KINOFAMILYHD/manifest.mpd?token=VeYTMwYzc0ZjM2NGJiMTE3NDdlMjMzN2I3ZDI5NzBiZTc
+#EXTINF:-1 group-title="КИНО",КИНОСВИДАНИЕ HD
+https://s25617.cdn.ngenix.net/mdrm/CH_KINODATEHD/manifest.mpd?token=XAOTM0MzVlYTIyNTZiYzVkOWJiOGNkY2JmMTEwM2ExNTE
+#EXTINF:-1 group-title="КИНО",КИНОПРЕМЬЕРА HD
+https://s25617.cdn.ngenix.net/mdrm/CH_KINOPREMIEREHD/manifest.mpd?token=DMYmQ4MGJiMDE3ZDNlYzNlNTczNGE0ZmRkMzlmNGZkNjY
+
+
+
+#EXTINF:-1 group-title="КИНО",Индия HD
+https://s25617.cdn.ngenix.net/mdrm/CH_ZEETVHD/manifest.mpd?token=GaN2FkNDY4NTllMTBjMTM2ZGUzY2Y0NjdjM2U1ZjdlZWE
+#EXTINF:-1 group-title="КИНО",Star Family HD
+https://s25617.cdn.ngenix.net/mdrm/CH_STARFAMILYHD/manifest.mpd?token=UuYTI4ZjE0MDk2NjQ4NWVmYzkzYjQ1ZTI0MmYzMDA2YmI
+
+#EXTINF:-1 group-title="КИНО",Star Cinema HD
+https://s25617.cdn.ngenix.net/mdrm/CH_STARCINEMAHD/manifest.mpd?token=SdNjYzZTU5ZWE5YzA1MDM3MDc0Yzg1YWI4OGJiOWMyOWM
+
+
+#EXTINF:-1 group-title="КИНО",KinoLiving HD
+https://s25617.cdn.ngenix.net/mdrm/CH_KINOLIVINGHD/manifest.mpd?token=k9ODJhNzRhZDAzOGU4OWUyYzljNmUzMTFiOTM2YTViOTg=
+#EXTINF:-1 group-title="Познавательные",CuriosityStream
+https://s25617.cdn.ngenix.net/mdrm/CH_CURIOSITYSTREAMHD/manifest.mpd$OPT:adaptive-use-avdemux$OPT:avdemux-options={decryption_key=a9159ca947d4a81c75dc8438b7298370}
+
+#EXTINF:-1 group-title="Познавательные",Неизвестная Россия HD
+https://s25617.cdn.ngenix.net/mdrm/CH_UNKRUSSIAHD/manifest.mpd$OPT:adaptive-use-avdemux$OPT:avdemux-options={decryption_key=8acb063428065ecdb6f91edfd0cdf540}
+
+
+#EXTINF:-1 group-title="КИНО",ТВ-21 HD
+https://s25617.cdn.ngenix.net/mdrm/CH_TV21HD/manifest.mpd$OPT:adaptive-use-avdemux$OPT:avdemux-options={decryption_key=ff96221fd2633e2385c9825fda900bda}
+
+#EXTINF:-1 group-title="Спорт",MMA-TV.com HD 
+https://s25617.cdn.ngenix.net/mdrm/CH_MMATVHD/manifest.mpd$OPT:adaptive-use-avdemux$OPT:avdemux-options={decryption_key=262c0bf76c78e5895447451b2a51759e}
+
+#EXTINF:-1 group-title="Спорт",Мир Баскетбола HD
+https://s25617.cdn.ngenix.net/mdrm/CH_MIRBASKETBOLAHD/manifest.mpd$OPT:adaptive-use-avdemux$OPT:avdemux-options={decryption_key=f96740daaa532bf4dcf7dab11725c12c}
+
+#EXTINF:-1 group-title="Познавательные",Ключ HD
+https://s25617.cdn.ngenix.net/mdrm/CH_KEYHD/manifest.mpd$OPT:adaptive-use-avdemux$OPT:avdemux-options={decryption_key=5900961ca3f6559d939f26646fda6fde}
+
+#EXTINF:-1 group-title="Музыка",Europa Plus TV HD
+https://s25617.cdn.ngenix.net/mdrm/CH_EUROPAPLUSHD/manifest.mpd$OPT:adaptive-use-avdemux$OPT:avdemux-options={decryption_key=f513f9d8950aaa33970931ccfdab0d9d}
+
+
+
+#EXTINF:-1 group-title="КИНО" tvg-id="Мосфильм. Золотая коллекция",Мосфильм. Золотая коллекция (+2)
+https://s25617.cdn.ngenix.net/mdrm/CH_MOSFILMHD_2/manifest.mpd$OPT:adaptive-use-avdemux$OPT:avdemux-options={decryption_key=620e777ac053311c66eafc53055ea9aa}
+#EXTINF:-1 group-title="КИНО" tvg-id="Мосфильм. Золотая коллекция",Мосфильм. Золотая коллекция (+4)
+https://s25617.cdn.ngenix.net/mdrm/CH_MOSFILMHD_4/manifest.mpd$OPT:adaptive-use-avdemux$OPT:avdemux-options={decryption_key=47fce49a1b1a95eb0405cdecf05517ec}
+#EXTINF:-1 group-title="КИНО",viju TV1000 (+2)
+https://s25617.cdn.ngenix.net/mdrm/CH_TV1000HD_2/manifest.mpd$OPT:adaptive-use-avdemux$OPT:avdemux-options={decryption_key=54546bb200ce52811f18acae604ea48d}
+#EXTINF:-1 group-title="КИНО",viju TV1000 Action (+2)
+https://s25617.cdn.ngenix.net/mdrm/CH_TV1000ACTIONHD_2/manifest.mpd$OPT:adaptive-use-avdemux$OPT:avdemux-options={decryption_key=e6ae5fa116528578166c4b699087c54a}
+#EXTINF:-1 group-title="КИНО",viju TV1000 Русское (+2)
+https://s25617.cdn.ngenix.net/mdrm/CH_TV1000RUSSKOEHD_2/manifest.mpd$OPT:adaptive-use-avdemux$OPT:avdemux-options={decryption_key=f51f19f40f1b3c3ef098477520ea4d09}
+#EXTINF:-1 group-title="КИНО",viju TV1000 (+4)
+https://s25617.cdn.ngenix.net/mdrm/CH_TV1000HD_4/manifest.mpd$OPT:adaptive-use-avdemux$OPT:avdemux-options={decryption_key=d7f24d8d6db900478d1cf406c9dc752c}
+#EXTINF:-1 group-title="КИНО",viju TV1000 Action (+4)
+https://s25617.cdn.ngenix.net/mdrm/CH_TV1000ACTIONHD_4/manifest.mpd$OPT:adaptive-use-avdemux$OPT:avdemux-options={decryption_key=af9bb21ae48ad1db08e632388eda3ebf}
+#EXTINF:-1 group-title="КИНО",viju TV1000 Русское (+4)
+https://s25617.cdn.ngenix.net/mdrm/CH_TV1000RUSSKOEHD_4/manifest.mpd$OPT:adaptive-use-avdemux$OPT:avdemux-options={decryption_key=32ad59b81dee7a79bc291362dcf54625}
+#EXTINF:-1 group-title="КИНО",viju TV1000 (+7)
+https://s25617.cdn.ngenix.net/mdrm/CH_TV1000HD_7/manifest.mpd$OPT:adaptive-use-avdemux$OPT:avdemux-options={decryption_key=3c65a334f314103defa3f905da02b75f}
+#EXTINF:-1 group-title="КИНО",viju TV1000 Action (+7)
+https://s25617.cdn.ngenix.net/mdrm/CH_TV1000ACTIONHD_7/manifest.mpd$OPT:adaptive-use-avdemux$OPT:avdemux-options={decryption_key=3a215547e9078eaa8669c621fc4e5250}
+#EXTINF:-1 group-title="КИНО",viju TV1000 Русское (+7)
+https://s25617.cdn.ngenix.net/mdrm/CH_TV1000RUSSKOEHD_7/manifest.mpd$OPT:adaptive-use-avdemux$OPT:avdemux-options={decryption_key=12b064d42524d1c91c24ffa21540584e}
+
+
+
+
+
+
+
+
+
+#EXTINF:-1 group-title="Детские",Sumiko
+https://s25617.cdn.ngenix.net/mdrm/CH_SUMIKOHD/manifest.mpd$OPT:adaptive-use-avdemux$OPT:avdemux-options={decryption_key=6e1a70bf33efa27cdc4affd073157734}
+
+#EXTINF:-1 group-title="Музыка",Classic Music
+https://s25617.cdn.ngenix.net/mdrm/CH_CLASSICMUSICHD/manifest.mpd$OPT:adaptive-use-avdemux$OPT:avdemux-options={decryption_key=45377c767b56e1ee752e94c6a8907c02}
+
+#EXTINF:-1 group-title="КИНО",Кино ТВ HD (+7)
+https://s25617.cdn.ngenix.net/mdrm/CH_KINOTVHD_7/manifest.mpd?token=AbMzE5OTMzMjYzN2VkYmNmNzI3OWE0YWVlYWRlN2JjNWE
+
+
+
+
+#EXTINF:-1 group-title="Спорт" tvg-id="viju SPORT HD SE",LIVE 1
+https://s25617.cdn.ngenix.net/mdrm/CH_WINK1/manifest.mpd?token=TdODgwZmY4MmNkMjY2YzM4MmIwNDFmNTI4NDI0OGNmYTg=
+#EXTINF:-1 group-title="Спорт" tvg-id="SI LIVE 24",LIVE 2
+https://s25617.cdn.ngenix.net/mdrm/CH_WINK2/manifest.mpd?token=dhMzg3M2RmNDJlNDZjYmQyZTE0MDdmM2U3MjE4NDZiYWE=
+#EXTINF:-1 group-title="Спорт" tvg-id="SPORT 5 LIVE HD [IL]",LIVE 3
+https://s25617.cdn.ngenix.net/mdrm/CH_WINK3/manifest.mpd?token=omMmY5NTc3NDEzODE4ZmM1MmQ2OTc0OTM0MWQyNTEyZDA=
+#EXTINF:-1 group-title="Спорт" tvg-id="A21 NETWORK",LIVE 4
+https://s25617.cdn.ngenix.net/mdrm/CH_WINK4/manifest.mpd?token=gTYjc2Y2UxMzRmMWEwZWU3NmIxZTkzNGIzZmU0OTlmNGE=
+
+#EXTINF:-1 group-title="Развлекательные",Лапки LIVE
+https://s25617.cdn.ngenix.net/mdrm/CH_LAPKILIVEHD/manifest.mpd$OPT:adaptive-use-avdemux$OPT:avdemux-options={decryption_key=a9933c49744a43ede19bf25c2f16342a}
+
+
+#EXTINF:-1 group-title="Музыка",BRIDGE ROCK
+https://s25617.cdn.ngenix.net/mdrm/CH_BRIDGEROCK/manifest.mpd$OPT:adaptive-use-avdemux$OPT:avdemux-options={decryption_key=4dc625fa6cabe365c787ea30fd16cb8b}
+
+#EXTINF:-1 group-title="Познавательные",Ностальгия
+https://s25617.cdn.ngenix.net/mdrm/CH_NOSTALGIYA/manifest.mpd?token=FRMWVjYzM4M2U5YmYyNDk0Mjc5MWVhMDEwOWU2ZTJiOWU
+
+#EXTINF:-1 group-title="Познавательные",Звезда ПЛЮС HD
+https://s25617.cdn.ngenix.net/mdrm/CH_ZVEZDAPLUSHD/manifest.mpd?token=ufZDVkZjI2NzZhNjg4OGVhNDVjN2MxZGZiZTIwMmU5ZjU=
+
+#EXTINF:-1 group-title="Музыка",МУЗ-ТВ HD
+https://s25617.cdn.ngenix.net/mdrm/CH_MUZHD/manifest.mpd$OPT:adaptive-use-avdemux$OPT:avdemux-options={decryption_key=115419027d5d06fb5ac33ab7e51c2af2}
+
+
+#EXTINF:-1 group-title="Музыка",ТНТ MUSIC HD
+https://s25617.cdn.ngenix.net/mdrm/CH_TNTMUSICHD/manifest.mpd$OPT:adaptive-use-avdemux$OPT:avdemux-options={decryption_key=b8a49bef4b9c380f6d50d4a5a350800e}
+
+#EXTINF:-1 group-title="КИНО",КиноМульт
+https://s25617.cdn.ngenix.net/mdrm/CH_KINOMULT/manifest.mpd$OPT:adaptive-use-avdemux$OPT:avdemux-options={decryption_key=bf92aa66f2e490dd685c304d8114bf97}
+
+
+#EXTINF:-1 group-title="Развлекательные",Эхо-ТВ
+https://s25617.cdn.ngenix.net/mdrm/CH_ECHOTV/manifest.mpd$OPT:adaptive-use-avdemux$OPT:avdemux-options={decryption_key=4d45cf48ea5f167ec2d74013ebe71d22}
+
+#EXTINF:-1 group-title="Познавательные",FoodTime HD
+https://s25617.cdn.ngenix.net/mdrm/CH_EDAPREMIUMHD/manifest.mpd$OPT:adaptive-use-avdemux$OPT:avdemux-options={decryption_key=e263eca1d5d038780db9958a0745f986}
+
+#EXTINF:-1 group-title="Развлекательные",Новый Игровой Канал
+https://s25617.cdn.ngenix.net/mdrm/CH_NIK/manifest.mpd$OPT:adaptive-use-avdemux$OPT:avdemux-options={decryption_key=095625f6f42c9cef5aefc5032e260e1a}
+#EXTINF:-1 group-title="Развлекательные",Народ Всё Видит
+https://s25617.cdn.ngenix.net/mdrm/CH_NVV/manifest.mpd$OPT:adaptive-use-avdemux$OPT:avdemux-options={decryption_key=20a9a98bde2d8e193118622391fbad98}
+
+#EXTINF:-1 group-title="КИНО",Romance Channel
+https://s25617.cdn.ngenix.net/mdrm/CH_ROMANCEHD/manifest.mpd$OPT:adaptive-use-avdemux$OPT:avdemux-options={decryption_key=159d5e3aabccca119c26d22d46c38fe2}
+
+#EXTINF:-1 group-title="КИНО",Suspense
+https://s25617.cdn.ngenix.net/mdrm/CH_SUSPENSEHD/manifest.mpd$OPT:adaptive-use-avdemux$OPT:avdemux-options={decryption_key=391857532ce3c197b3398ccd228e3a3c}
+
+#EXTINF:-1 group-title="КИНО",VHS-KA HD
+https://s25617.cdn.ngenix.net/mdrm/CH_VHSKAHD/manifest.mpd$OPT:adaptive-use-avdemux$OPT:avdemux-options={decryption_key=a2edd4cb8d367d0f8c8256d98d0239ff}
+
+#EXTINF:-1 group-title="Детские",Cartoon Classics
+https://s25617.cdn.ngenix.net/mdrm/CH_CARTOONCLASSICS/manifest.mpd$OPT:adaptive-use-avdemux$OPT:avdemux-options={decryption_key=3f7877231768b98933b066926d6de83d}
+
+
+#EXTINF:-1 group-title="Спорт",Матч! Боец HD
+https://s25617.cdn.ngenix.net/mdrm/CH_MATCHBOETSHD/manifest.mpd$OPT:adaptive-use-avdemux$OPT:avdemux-options={decryption_key=95914dba5b4e1a5349f084fc6a1a8481}
+
+#EXTINF:-1 group-title="Спорт",Матч! Страна HD
+https://s25617.cdn.ngenix.net/mdrm/CH_MATCHSTRANAHD/manifest.mpd$OPT:adaptive-use-avdemux$OPT:avdemux-options={decryption_key=cfd94972fc012f08fa53c683a64a29a7}
+
+#EXTINF:-1 group-title="Музыка",Телеканал народной музыки HD
+https://s25617.cdn.ngenix.net/mdrm/CH_NARODNAYAMUZIKAHD/manifest.mpd$OPT:adaptive-use-avdemux$OPT:avdemux-options={decryption_key=ddd23a51538728d90ed74f87bf17dbf2}
+
+#EXTINF:-1 group-title="КИНО" tvg-logo="http://m24.do.am/images/viju_tv1000_novella.png",viju TV1000 новелла
+https://s25617.cdn.ngenix.net/mdrm/CH_VIJUTV1000NOVELLAHD/manifest.mpd$OPT:adaptive-use-avdemux$OPT:avdemux-options={decryption_key=590c3fb96a117bfd3375419d89c71485}
+#EXTINF:-1 group-title="Познавательные",#КтоКуда
+https://s25617.cdn.ngenix.net/mdrm/CH_KTOKUDA/manifest.mpd?token=LwMDk1YjRlZmI1Zjc1NzdiNjkzZWFlYWYzN2RjMGNkZmE
+#EXTINF:-1 group-title="КИНО",.black
+https://s25617.cdn.ngenix.net/mdrm/CH_SONYTURBO/manifest.mpd?token=QgNjI1YjUzNTkyOGQ1ZDZjNzk4ZDZhNjQ0YTBmZDU2ZjI
+#EXTINF:-1 group-title="КИНО",.red
+https://s25617.cdn.ngenix.net/mdrm/CH_SET/manifest.mpd?token=FCNWMwZTViMmEzMWI1ZjI0MjUwNGZlODgzNmE5Mjk1NmM
+#EXTINF:-1 group-title="КИНО",.red HD
+https://s25617.cdn.ngenix.net/mdrm/CH_C02_SETHD/manifest.mpd?token=ysMGMwMmE5NGY5MjEwNmQ0Y2FhYTM4NGUyODk2N2M4ZjA=
+#EXTINF:-1 group-title="КИНО",.sci-fi
+https://s25617.cdn.ngenix.net/mdrm/CH_SONYSCIFI/manifest.mpd?token=ASYTcxMjM2NjEyZWFjNTk2OTVhZmNjNzQzNDI2MWE5MTU
+#EXTINF:-1 group-title="Региoнальные",10 канал Новокузнецк
+http://rt-sib-nvkz-htlive.cdn.ngenix.net/hls/CH_R01_DESYATKA/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",12 канал Омск HD
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_OMSK_12CHANNEL/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",12 канал Череповец
+http://rt-nw-vol-htlive.cdn.ngenix.net/hls/CH_R01_12CHANNEL/variant.m3u8?version=2
+#EXTINF:-1 group-title="Развлекательные",2x2
+http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2/variant.m3u8?version=2
+#EXTINF:-1 group-title="Развлекательные",2x2 (+2)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2_2/variant.m3u8?version=2
+#EXTINF:-1 group-title="Развлекательные",2x2 (+4)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2_4/variant.m3u8?version=2
+#EXTINF:-1 group-title="Развлекательные",2x2 (+7)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2_7/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",31 канал Челябинск
+http://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R01_OTT_31TVK_CHEL/variant.m3u8?version=2
+#EXTINF:-1 group-title="Развлекательные",360° HD
+https://s25617.cdn.ngenix.net/mdrm/CH_PODMOSKOVIEHD/manifest.mpd?token=VHZDFmODY2ZWYwY2I4MmJlN2UyMDBmMDYzNDdlM2MwZDc
+#EXTINF:-1 group-title="ИНФОРМАЦИОННЫЕ",360° Новости
+https://s25617.cdn.ngenix.net/mdrm/CH_360NEWSHD/manifest.mpd?token=NIOGIyNGFkZWQ3MTM4ZGJiNTE0YjNmYjQ4ODQxYzJjNmU
+#EXTINF:-1 group-title="Познавательные",365 дней ТВ
+https://s25617.cdn.ngenix.net/mdrm/CH_365DNEYHD/manifest.mpd?token=5UMjJmNTMxOWE5YzdhZjZmZTVmNjA2NDFhZDhiOTgxMWY=
+#EXTINF:-1 group-title="Региoнальные",41 Регион
+http://s14131.cdn.ngenix.net/hls/CH_R02_OTT_DV_KAM_41REG_OTT/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",41 Телеканал ВТК АРГУС HD
+http://rt-ct-vrzh-htlive.cdn.ngenix.net/hls/CH_R01_ARGUS/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",49 канал Новосибирск
+http://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_NSK_49CHANNEL/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",6 ТВ
+http://s97982.cdn.ngenix.net/hls/CH_R27_OTT_DV_HVSK_6TV/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",7 канал Красноярск
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R13_OTT_SIB_KRSK_RENTV/variant.m3u8?version=2
+#EXTINF:-1 group-title="Развлекательные",8 канал
+https://s25617.cdn.ngenix.net/mdrm/CH_8KANAL/manifest.mpd?token=48N2E3M2E2MzAzM2RkNzE0NjFiMjk5MGJiMGU1OGU5ODM
+#EXTINF:-1 group-title="Региoнальные",8 канал Владивосток
+http://s91030.cdn.ngenix.net/hls/CH_R01_OTT_DV_VLD_OTT8KANAL/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",8 канал Красноярский край
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R02_OTT_SIB_KRSK_8CHANNEL/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",8 канал Новосибирск
+http://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_NSK_8CHANNEL/variant.m3u8?version=2
+#EXTINF:-1 group-title="Музыка",9 Волна
+http://rt-sth-cherks-htlive.cdn.ngenix.net/hls/CH_R02_OTT_STH_CHERKS_9VOLNA-CHRK/variant.m3u8?version=2
+#EXTINF:-1 group-title="КИНО",A1 HD
+https://s25617.cdn.ngenix.net/mdrm/CH_C01_HDAMEDIA/manifest.mpd?token=J3ZWQ2NTUxOGE2MTA0MjZlMzY3MjI0MGI4MTg5OTBhNDU
+#EXTINF:-1 group-title="КИНО",A2 HD
+https://s25617.cdn.ngenix.net/mdrm/CH_A2PROLYBOV/manifest.mpd?token=gfNjcxMjRhNmJmZjJmNTA0N2UzNWIyYTBhNDU4Y2I4NDA=
+#EXTINF:-1 group-title="Музыка",AIVA HD
+https://s25617.cdn.ngenix.net/mdrm/CH_AIVAHD/manifest.mpd?token=JlNjMyYjQyYmVjMjJjZjA0N2JkMWM0Zjg2MDBmYjE5MzM
+#EXTINF:-1 group-title="КИНО",AMEDIA Hit HD
+https://s25617.cdn.ngenix.net/mdrm/CH_AMEDIAHITHD/manifest.mpd?token=ABMzYxYzUxNmNjZDdmNmUxZmUwZjA0OGUzMDhjZjU0ZjR9
+#EXTINF:-1 group-title="КИНО",AMEDIA Premium HD
+https://s25617.cdn.ngenix.net/mdrm/CH_C05_HDAMEDIAPREMIUM/manifest.mpd?token=hgNmJiZmJlNzNlMmJkODE4M2IzM2EzNDQ0MDQ1MWNhNmQ=
+#EXTINF:-1 group-title="Детские",Ani
+https://s25617.cdn.ngenix.net/mdrm/CH_ANI/manifest.mpd?token=yuZTBkMzBiN2I1OGY4YWYxZWRjMTM2YmNhYmQyZGMwMTI=
+#EXTINF:-1 group-title="Взрослые",Babes TV
+https://s25617.cdn.ngenix.net/mdrm/CH_BABESTVHD/manifest.mpd?token=jiY2YwZDgzYzJkNTExNzdkYTkxMjVlZmQ1ODQ4Zjg1NmQ=
+#EXTINF:-1 group-title="Взрослые",Barely Legal
+https://s25617.cdn.ngenix.net/mdrm/CH_BARELYLEGAL/manifest.mpd?token=2yNDQ3ZTFlOTZlNGQyMzNiZmY0MDA3ZGUzMjViOTFlMWE=
+#EXTINF:-1 group-title="Познавательные",BIG PLANET
+https://s25617.cdn.ngenix.net/mdrm/CH_BIGPLANETHD/manifest.mpd?token=kLNTgyZWVjMzFhOTllOTFkYmFiNDllMTU3MDEzYjk2ZDA=
+#EXTINF:-1 group-title="Взрослые",blue HUSTLER
+https://s25617.cdn.ngenix.net/mdrm/CH_BLUEHUSTLER/manifest.mpd?token=GcZGUzN2E2YzY0ODhiODJiMDJlM2VhZmM3MGZlZDgxOWQ=
+#EXTINF:-1 group-title="КИНО",Bollywood HD
+https://s25617.cdn.ngenix.net/mdrm/CH_BOLLYWOODHD/manifest.mpd?token=HWZTNjYzQ2OTcxMTQ1MmJkOTUwZWE1YWQxNGYzMjI1MWU
+#EXTINF:-1 group-title="КИНО",BOLT HD
+https://s25617.cdn.ngenix.net/mdrm/CH_BOLTHD/manifest.mpd?token=GHYTRhODFlYzg0NGVkMDVmYzM4NzQ1ODZmYmQ2NmIzN2I
+#EXTINF:-1 group-title="Взрослые",Brazzers TV Europe
+https://s25617.cdn.ngenix.net/mdrm/CH_BRAZZERSTV/manifest.mpd?token=fRZjRjYmNmYzhiNGJjNTAzYTRkNDAxYmQ3NWJlNmI5NzY=
+#EXTINF:-1 group-title="Музыка",BRIDGE
+https://s25617.cdn.ngenix.net/mdrm/CH_BRIDGETV/manifest.mpd?token=JjNzYwOThlYzkwZGRmMzVkODZkZmM5YTllMjI5Njg5M2M
+#EXTINF:-1 group-title="Музыка",BRIDGE CLASSIC
+https://s25617.cdn.ngenix.net/mdrm/CH_BRIDGETVCLASSIC/manifest.mpd?token=QUODE1NmI3NmRkMmE3ODY3NWYxOGNiM2U3YWIxMzdlYzQ
+#EXTINF:-1 group-title="Музыка",BRIDGE Deluxe
+https://s25617.cdn.ngenix.net/mdrm/CH_BRIDGEHD/manifest.mpd?token=VjYWQxMGE3NDIzY2M5YThkYWEyODdjZGI3OWUzYzY0NmE
+#EXTINF:-1 group-title="Музыка",BRIDGE HITS
+https://s25617.cdn.ngenix.net/mdrm/CH_BRIDGETVDANCE/manifest.mpd?token=NRY2RjYzNiNjdhMTI3Njg2M2M1NjRlNDE5YjViMDY2MTM
+#EXTINF:-1 group-title="Музыка",BRIDGE Русский Хит
+https://s25617.cdn.ngenix.net/mdrm/CH_RUSONGTV/manifest.mpd?token=CGMThjYzc2MmVmYzNkM2ZkNDQ5ZjVkMTNmNGViNzA0MjI
+#EXTINF:-1 group-title="Музыка",BRIDGE ФРЭШ
+https://s25617.cdn.ngenix.net/mdrm/CH_BRIDGEFRESH/manifest.mpd?token=gYNjQzMDhhOGRlNWJhZTA2MjVhOWMzOWExZWE5OTdjNTQ=
+#EXTINF:-1 group-title="Музыка",BRIDGE Шлягер
+https://s25617.cdn.ngenix.net/mdrm/CH_BRIDGETVSHLYAGER/manifest.mpd?token=MnZTBhM2FlOTJhNWFlYzdjNmYzZjQzNTdmYmRiYzQ0ODU
+#EXTINF:-1 group-title="Иностранные",CCTV-4
+https://s25617.cdn.ngenix.net/mdrm/CH_CCTV4/manifest.mpd?token=W8ZTJiNDNmM2UzMjE1ZDcwYTIwYTAwZTQzMGY2NDVjNTU
+#EXTINF:-1 group-title="Иностранные",CGTN
+https://s25617.cdn.ngenix.net/mdrm/CH_CGTNENG/manifest.mpd?token=WIODk4ZTUxZDFkNDhmMDk4ZDBhNzI1YjA3YWU3YTM2MGM
+#EXTINF:-1 group-title="Познавательные",CGTN Русский
+https://s25617.cdn.ngenix.net/mdrm/CH_CGTNRUS/manifest.mpd?token=GoZjlkODEzODI4OWE2NTZlMDQ4ZjJhYzViZmJlMTRjODc
+#EXTINF:-1 group-title="КИНО",Cinema
+https://s25617.cdn.ngenix.net/mdrm/CH_PARKRAZVLECHENIJ/manifest.mpd?token=CXZjg1ZGU3ODM5ZGI2MzhhYzI1NmM0OTdjNWI2MDIxY2M
+#EXTINF:-1 group-title="Музыка",Clubbing TV HD
+https://s25617.cdn.ngenix.net/mdrm/CH_CLUBBINGHD/manifest.mpd?token=Q1YmM0ZGY2MjM3ZTE0YmE4MzVjMTcyYTBlOTFhZmRkYTk
+#EXTINF:-1 group-title="Познавательные",Da Vinci
+https://s25617.cdn.ngenix.net/mdrm/CH_DAVINCILEARNING/manifest.mpd?token=byMzhjYzA3MDlhNTMzNTk5NGY0NTc5MTRjODViMjliYjY
+#EXTINF:-1 group-title="Детские",Duck TV HD
+https://s25617.cdn.ngenix.net/mdrm/CH_DUCKTVHD/manifest.mpd?token=rtMDFkNTVjYzdlNWNlYTBlZGNhNzc1OTA3N2JiODM4YmE=
+#EXTINF:-1 group-title="Познавательные",English Class
+https://s25617.cdn.ngenix.net/mdrm/CH_ENGLISHCLASSHD/manifest.mpd?token=LmYzQwMmRiYmJjMTExOTg3NTFmMDczY2YxODdiODgxNWE=
+
+#EXTINF:-1 group-title="Музыка",Europa Plus TV
+https://s25617.cdn.ngenix.net/mdrm/CH_EUROPAPLUSTV/manifest.mpd?token=WiNjI2MDRhNmUyM2MwY2E4MTA1Njk5ZTRiZTFhZjg1OGI
+#EXTINF:-1 group-title="Взрослые",Exxxotica
+https://s25617.cdn.ngenix.net/mdrm/CH_EXXXOTICAHD/manifest.mpd?token=y6OTA3ZTA2NzE5ODliMDkzZDk3ZDM2Y2M0MDRiODBkNzg=
+#EXTINF:-1 group-title="КИНО",FAN HD
+https://s25617.cdn.ngenix.net/mdrm/CH_FANHD/manifest.mpd?token=WvZGEyOThmYzRkZTc5NjEyODUzMDdkY2M3MTYwZGQzZTI
+#EXTINF:-1 group-title="Развлекательные",FashionTV HD
+https://s25617.cdn.ngenix.net/mdrm/CH_FASHIONTVHD/manifest.mpd?token=g2MWIzNmI4OWY4ZmQ0ZTIyNjA4NDc4OWE4YWNhNTU5ZTk
+
+
+#EXTINF:-1 group-title="Познавательные",TV BRICS
+https://s25617.cdn.ngenix.net/mdrm/CH_TVBRICSHD/manifest.mpd?token=p7MmVhZjllYjBhZmU0OTk1OGFmYmVkMzBjODg1MWRiMTE
+
+
+#EXTINF:-1 group-title="Познавательные",Travel+Adventure HD
+https://s25617.cdn.ngenix.net/mdrm/CH_TRAVELANDADVENTUREHD/manifest.mpd?token=f0ZjEzYTI1M2VkNDQ4MzM0N2QwNjlmMjJiYzA0NjEwYjY
+
+#EXTINF:-1 group-title="Познавательные",Еда HD
+https://s25617.cdn.ngenix.net/mdrm/CH_EDAHD/manifest.mpd?token=ZTMDAxMTVjZDM0YmE5MTkyY2FjYjNhOWQzNDVhNTlkOWI
+#EXTINF:-1 group-title="Взрослые",French Lover TV
+https://s25617.cdn.ngenix.net/mdrm/CH_FRENCHLOVER/manifest.mpd?token=iUNDRhOWIxMTI4ZTJmZTdhMTZmODFiNTZkNmRmNzA4ODk=
+#EXTINF:-1 group-title="Развлекательные",Gagsnetwork HD
+https://s25617.cdn.ngenix.net/mdrm/CH_GAGSNETWORKHD/manifest.mpd?token=XnMTcxZTdkNzFkYTZmNmM3OWIyMDRmMTMyYzVmZjRmYjc
+#EXTINF:-1 group-title="Детские",Gulli Girl
+https://s25617.cdn.ngenix.net/mdrm/CH_GULLI/manifest.mpd?token=UqOGZlOGM3N2Q3ZmQxZjFhMmQ3NzFhYzA5MzJiMzU4ODU
+#EXTINF:-1 group-title="КИНО",Hollywood HD
+https://s25617.cdn.ngenix.net/mdrm/CH_HOLLYWOODHD/manifest.mpd?token=GTNTc2NjkwOTQxZGNmYzgxZDdmNjVkYmJhOGRkOTgwMmY
+#EXTINF:-1 group-title="Иностранные",Kazakh TV
+https://s25617.cdn.ngenix.net/mdrm/CH_KAZAHHD/manifest.mpd?token=L3MTZlNjc5MzFhYzFkOWZhOThjNWU5MjFhMzEwN2Q1NGE
+#EXTINF:-1 group-title="Спорт",KHL
+https://s25617.cdn.ngenix.net/mdrm/CH_KHLHD/manifest.mpd?token=AcYWM5YzE2N2JkMTFiM2ZkNzg3NDc4YmFmYjRlNDE0OGQ
+#EXTINF:-1 group-title="Спорт",KHL Prime
+https://s25617.cdn.ngenix.net/mdrm/CH_KHLPRIMEHD/manifest.mpd?token=AzYzBjOTgyNjljNTRhZjYwYTAxYzYzZWZmNDE3N2IwYzk
+#EXTINF:-1 group-title="КИНО",KinoLiving
+https://s25617.cdn.ngenix.net/mdrm/CH_KINOLIVINGHD/manifest.mpd?token=k9ODJhNzRhZDAzOGU4OWUyYzljNmUzMTFiOTM2YTViOTg=
+#EXTINF:-1 group-title="Познавательные",Leomax24
+https://s25617.cdn.ngenix.net/mdrm/CH_C04_SHOP24/manifest.mpd?token=YMNmJkYTUwNjY2ZGFhNjUyNjUzOGQ3NzI0MzM0ZTYwZmQ
+#EXTINF:-1 group-title="Музыка",MCM TOP
+https://s25617.cdn.ngenix.net/mdrm/CH_MCMTOP/manifest.mpd?token=RYYThkMjNjZmYxZTdmMmFkNjQzM2I5NjYxODIyY2Y4Yjg
+#EXTINF:-1 group-title="Музыка",Mezzo HD
+https://s25617.cdn.ngenix.net/mdrm/CH_MEZZOHD/manifest.mpd?token=6iOGE4NGQ5NThhMmYzZGY3MTJiMzgyMTM4ODcwZmM4Zjg
+#EXTINF:-1 group-title="Музыка",Mezzo Live HD
+https://s25617.cdn.ngenix.net/mdrm/CH_C05_MEZZOLIVEHD/manifest.mpd?token=ZJYjVlMzZjYmEwMGU1OTU4OGQzZDliM2E3NWExOWRkMWQ
+#EXTINF:-1 group-title="Спорт",MMA-TV.com
+https://s25617.cdn.ngenix.net/mdrm/CH_M1GLOBAL/manifest.mpd?token=EMNDE3YjJkYzM5NGM4OWMyNWMyNmIzZDhiZWQyYmZhMmI
+#EXTINF:-1 group-title="Познавательные",Museum HD
+https://s25617.cdn.ngenix.net/mdrm/CH_MUSEUMHD/manifest.mpd?token=A3MGRlYmU3ZmZhNjIzYmI4OTljZWI2Njg3ODhiNzA0MzQ
+#EXTINF:-1 group-title="Музыка",MUSIC BOX GOLD
+https://s25617.cdn.ngenix.net/mdrm/CH_MUSICBOXTV/manifest.mpd?token=GkYTEwMDkwOWVmZDI4OTQ3MGViNWM1MmI1ZDQ5Njk0MWU
+#EXTINF:-1 group-title="Музыка",MUSIC BOX RUSSIAN HD
+https://s25617.cdn.ngenix.net/mdrm/CH_RUSSIAN_MUSICBOXHD/manifest.mpd?token=YjMDZkMTZjZWUyMTA2N2ZhNTdkNDdiYmNkYjY3YWM5YzY
+#EXTINF:-1 group-title="Познавательные",My Zen TV HD
+https://s25617.cdn.ngenix.net/mdrm/CH_C05_MYZENTVHD/manifest.mpd?token=dQZjVlODkxYWU0OTJjYzM5NmRmMGVjN2E0ZmM4NjQ5OGY
+#EXTINF:-1 group-title="Региoнальные",NEXT-TV
+http://s45177.cdn.ngenix.net/hls/CH_R01_NEXTTV/variant.m3u8?version=2
+#EXTINF:-1 group-title="Взрослые",O-la-la
+https://s25617.cdn.ngenix.net/mdrm/CH_OLALAHD/manifest.mpd?token=eTOTJjZjY0NDE4OTA2NDZkZDI2OGZlNThiMWU0NWZlOGE=
+#EXTINF:-1 group-title="Познавательные",Ocean-TV
+https://s25617.cdn.ngenix.net/mdrm/CH_OCEANTV/manifest.mpd?token=YWY2I5NDZlOWE0MWRmM2IyZTE4OTUzNzc3ZTc2NGQ2YjY
+#EXTINF:-1 group-title="КИНО",Plan B
+https://s25617.cdn.ngenix.net/mdrm/CH_PLANBHD/manifest.mpd?token=wUY2Y3ZjFiNDliOGFmOTJiYWE1NzZkMGQ0MDJlY2NmNTQ=
+#EXTINF:-1 group-title="Познавательные",QUADRO 4K
+https://s25617.cdn.ngenix.net/mdrm/CH_QUADRO4K/manifest.mpd?token=etNTAyNjk2NmQ4NzY4MzkzM2JkMzhlZDBkMTgxMGZiMmE=
+#EXTINF:-1 group-title="Взрослые",Red Lips
+https://s25617.cdn.ngenix.net/mdrm/CH_REDLIPSHD/manifest.mpd?token=KJYTI3NmIxOGE3NTg1ZDQ2MDFlNjEyMzhiMDM1ZWUxNDk=
+#EXTINF:-1 group-title="Иностранные",RT DE
+https://s25617.cdn.ngenix.net/mdrm/CH_RTDEHD/manifest.mpd?token=klOGE3MGI4N2M4MjQ5ZWVmOWE4NzYxMjc5OGM0ZTFjOTQ=
+#EXTINF:-1 group-title="Иностранные",RT HD
+https://s25617.cdn.ngenix.net/mdrm/CH_C04_RTTVHD/manifest.mpd?token=T0ZDNiMjg1MzAyYTdlZjJhZWYyMjIxOGM2NDhkMWFjNmI
+#EXTINF:-1 group-title="Познавательные",RTG HD
+https://s25617.cdn.ngenix.net/mdrm/CH_RTGHD/manifest.mpd?token=Z1YzNmZDhmYTU0MWQ3YmQ4ZTY4ZDE4Y2QyYmQ4NTJlZTY
+#EXTINF:-1 group-title="ИНФОРМАЦИОННЫЕ",RTД HD
+https://s25617.cdn.ngenix.net/mdrm/CH_RTDHD/manifest.mpd?token=NRODVlMzNhNmEyNzk0M2ZiNjIyNzI3OTYyYWE3MGVlMjk
+#EXTINF:-1 group-title="Музыка",RU.TV HD
+https://s25617.cdn.ngenix.net/mdrm/CH_RUTVHD/manifest.mpd?token=ETODA5YTdjM2NiMGE2NTg3YmRlZjA0NzYwM2NmNjM3MmU=
+#EXTINF:-1 group-title="Мужские",Russian Extreme HD
+https://s25617.cdn.ngenix.net/mdrm/CH_RUSSIANEXTREMEHD/manifest.mpd?token=EfYWFmYTllMzgxOTM5NWNkMzk2MzFlMDg3NDQzOGZkMzg=
+#EXTINF:-1 group-title="Спорт",Russian Extreme Ultra
+https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIANEXTREMEULTRA/variant.m3u8
+#EXTINF:-1 group-title="Общие",Russian Extreme Ultra HD
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIANEXTREMEULTRA/variant.m3u8?version=2
+#EXTINF:-1 group-title="Развлекательные",Shop & Show
+https://s25617.cdn.ngenix.net/mdrm/CH_SHOPANDSHOW/manifest.mpd?token=85YjIyMjE4NGMyYzAwOGQxNGJiNmEyYzdkMDc5Mzc5Y2Y
+#EXTINF:-1 group-title="Познавательные",Shopping live
+https://s25617.cdn.ngenix.net/mdrm/CH_SHOPPINGLIFE/manifest.mpd?token=hVMTUwZjYyNTZlYjIyMDIyMTcyMTJlYTQ5OTEyZWRhODY
+#EXTINF:-1 group-title="КИНО",SHOT TV
+https://s25617.cdn.ngenix.net/mdrm/CH_SHOTTVHD/manifest.mpd?token=CgZTUxMjM4NzMzMjIwNzhjOGRhZTRiMzA3NWIwZTM1OTQ
+#EXTINF:-1 group-title="Музыка",SongTV Armenia
+https://s25617.cdn.ngenix.net/mdrm/CH_SONGTVARMHD/manifest.mpd?token=NIMDE2NDA2YmY3YjljNDRkMTNhY2MwMmQ0NzIwODk2MDQ
+#EXTINF:-1 group-title="Музыка",SongTV Russia
+https://s25617.cdn.ngenix.net/mdrm/CH_SONGTVRUSHD/manifest.mpd?token=M1OWFjMjYxYTUwMWRkZDUyZTY4ODYwYThiYmExNjllMDY
+#EXTINF:-1 group-title="КИНО",Star Cinema
+https://s25617.cdn.ngenix.net/mdrm/CH_STARCINEMAHD/manifest.mpd?token=SdNjYzZTU5ZWE5YzA1MDM3MDc0Yzg1YWI4OGJiOWMyOWM
+#EXTINF:-1 group-title="КИНО",Star Family
+https://s25617.cdn.ngenix.net/mdrm/CH_STARFAMILYHD/manifest.mpd?token=UuYTI4ZjE0MDk2NjQ4NWVmYzkzYjQ1ZTI0MmYzMDA2YmI
+#EXTINF:-1 group-title="КИНО",START Air
+https://s25617.cdn.ngenix.net/mdrm/CH_STARTAIRHD/manifest.mpd?token=84MTY5YTc1NzYwODE4NmRiYWNjOTMxY2YwZGI0YzA5YjI=
+#EXTINF:-1 group-title="КИНО",START World
+https://s25617.cdn.ngenix.net/mdrm/CH_STARTWORLDHD/manifest.mpd?token=5pMTViMjIzYzkxOTZiYTU4YTRlNzJkMGM1MWU3ZWFmZjI=
+#EXTINF:-1 group-title="Познавательные",TERRA
+https://s25617.cdn.ngenix.net/mdrm/CH_NATGEO/manifest.mpd?token=XyY2U0ZGQ2OGNhNDBhNWFkYmFhOGJiYmVjNmFmMjk0M2I
+#EXTINF:-1 group-title="Познавательные",TERRA HD
+https://s25617.cdn.ngenix.net/mdrm/CH_C04_NGCHD/manifest.mpd?token=KkZWQ2NjFjMDhjMGE1NmQ4YjAxZWE3MTA2YjM3YzBmNmI
+#EXTINF:-1 group-title="Детские",TiJi
+https://s25617.cdn.ngenix.net/mdrm/CH_TIJI/manifest.mpd?token=EONTNlMGE4NTczMTk5OGFiYzUxNmFhNDAxMjBhN2YxZGQ
+#EXTINF:-1 group-title="Региoнальные",TMTV
+http://rt-vlg-kzn-htlive.cdn.ngenix.net/hls/CH_R03_TMTV/variant.m3u8?version=2
+#EXTINF:-1 group-title="Спорт",TRACE Sport Stars HD
+https://s25617.cdn.ngenix.net/mdrm/CH_TRACESPORTSTARSHD/manifest.mpd?token=uGZDE4NTEyNmYyOGJiYTAwMTYzY2QzODAyMmM3N2Q2Yzg
+#EXTINF:-1 group-title="Познавательные",Travel+Adventure
+https://s25617.cdn.ngenix.net/mdrm/CH_TRAVELANDADVENTUREHD/manifest.mpd?token=f0ZjEzYTI1M2VkNDQ4MzM0N2QwNjlmMjJiYzA0NjEwYjY
+#EXTINF:-1 group-title="Познавательные",Travelxp 4K
+https://s25617.cdn.ngenix.net/mdrm/CH_TRAVELXP4K/manifest.mpd?token=28YmYwMzY1MWViOGJlNjU2NDkwMDQ4OTQxNGI0NzBjOTQ
+#EXTINF:-1 group-title="Познавательные",Travelxp HD
+https://s25617.cdn.ngenix.net/mdrm/CH_TRAVELXPHD/manifest.mpd?token=r7N2RkZjc0YmM4ODYxZWMxYzc3MTBmMjM3NDRjNjgzZDA=
+
+#EXTINF:-1 group-title="Региoнальные",TV Губерния
+http://rt-ct-vrzh-htlive.cdn.ngenix.net/hls/CH_R01_TVGUBERNIYA/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",TVоя Тюмень
+http://rt-ural-tum-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TVOYATUMEN/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Ugra Travel
+http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_UGRA_TRAVEL/variant.m3u8?version=2
+#EXTINF:-1 group-title="КИНО",Ultra HD Cinema
+https://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA/variant.m3u8
+#EXTINF:-1 group-title="Региoнальные",URAL1
+http://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R02_OTT_URAL1/variant.m3u8?version=2
+#EXTINF:-1 group-title="Познавательные",viju Explore HD
+https://s25617.cdn.ngenix.net/mdrm/CH_VIASATEXPLOREHD/manifest.mpd?token=YnMmU0MjUyODVlY2EyZGJjZmJjNTY4ZGMwM2VkM2Q3NzM
+#EXTINF:-1 group-title="Познавательные",viju History HD
+https://s25617.cdn.ngenix.net/mdrm/CH_VIASATHISTORYHD/manifest.mpd?token=DTYWI5ODU0MWM1Y2NiZTFlN2QzN2M4ZTdlYTEyMjdjYWQ
+#EXTINF:-1 group-title="Познавательные",viju Nature HD
+https://s25617.cdn.ngenix.net/mdrm/CH_VIASATNATUREHD/manifest.mpd?token=YxZWEyOTNlMDY1NTE2NGU4Y2ZjYmU2OWVjMDUwZGRhZjU
+#EXTINF:-1 group-title="КИНО",viju TV1000
+https://s25617.cdn.ngenix.net/mdrm/CH_TV1000HD/manifest.mpd?token=C2OTNkMDA2NWFjODFmNDA4YmNiODZiMWU1YmY5NzhiODA
+#EXTINF:-1 group-title="КИНО",viju TV1000 action
+https://s25617.cdn.ngenix.net/mdrm/CH_TV1000ACTIONHD/manifest.mpd?token=MxMGZhMDE4Mzc4MmVlMDY1MGM4ZDIzODM4ZDgwMmRmZjI
+#EXTINF:-1 group-title="КИНО",viju TV1000 русское
+https://s91412.cdn.ngenix.net/mdrm/CH_TV1000RUSSKOEKINOHD/manifest.mpd?token=OMYTllYjBkNmRhOWM2YzQ0ODBlNTU0MjBiZWRlYzIzNmU
+#EXTINF:-1 group-title="КИНО",viju+ Comedy
+https://s25617.cdn.ngenix.net/mdrm/CH_C03_TV1000COMEDYHD/manifest.mpd?token=UbYWE0YTcyYTM2MDEzM2I1YTM2Y2ZlZjYzYzc5NTM0MjU
+#EXTINF:-1 group-title="КИНО",viju+ Megahit
+https://s25617.cdn.ngenix.net/mdrm/CH_C03_TV1000MEGAHITHD/manifest.mpd?token=B1NmVjMTkwM2YyYzA5NWIwZDM1OTY4YTM3MjM0NjE4MTc
+#EXTINF:-1 group-title="Познавательные",viju+ Planet HD
+https://s25617.cdn.ngenix.net/mdrm/CH_C03_VIASATNATUREHISTORYHD/manifest.mpd?token=E7MDk0NjJkMTk2MzA5YzAwMzhhMGI4YTc1YzM4NTViYzg
+#EXTINF:-1 group-title="КИНО",viju+ Premiere
+https://s25617.cdn.ngenix.net/mdrm/CH_C05_TV1000PREMIUMHD/manifest.mpd?token=ZONzM3NzcwMGYwYzY3MTEyOWVmMTFhODI1MWIyMjBkMmI
+#EXTINF:-1 group-title="КИНО",viju+ Serial
+https://s25617.cdn.ngenix.net/mdrm/CH_C06_VIASATGOLFHD/manifest.mpd?token=NoODRjZDk2ZmMyNjhkMWQzYjZiNDMzYWM3NDRhNWM0NTA
+#EXTINF:-1 group-title="Спорт",viju+ Sport
+https://s25617.cdn.ngenix.net/mdrm/CH_VIASATSPORT/manifest.mpd?token=FDZDgyMWMyMGM4ZTI5MTFhYmFjYTFjZWViN2YzZmIxMDU
+#EXTINF:-1 group-title="Спорт",viju+ Sport HD
+https://s25617.cdn.ngenix.net/mdrm/CH_C06_VIASATSPORTHD/manifest.mpd?token=CDNzllOTZlMTNiYTUyMDM1OTYwMzJjMGE2NTkzMzhmNjU
+#EXTINF:-1 group-title="Развлекательные",WOMEN’S MAGAZINE
+https://s25617.cdn.ngenix.net/mdrm/CH_WOMENSMAGAZINEHD/manifest.mpd?token=1yZWFiMDk0YWNhYjdmMmM2NGFjYjE5ZTllZTY0N2Q3NWQ=
+#EXTINF:-1 group-title="Развлекательные",World Fashion Channel HD
+https://s25617.cdn.ngenix.net/mdrm/CH_WFCHD/manifest.mpd?token=PONmY3OTJiNjI1NDAwY2QzN2Q2ZDNkMDI3MjM3OGY5MGI
+#EXTINF:-1 group-title="Познавательные",Zоопарк
+https://s25617.cdn.ngenix.net/mdrm/CH_ZOOPARK/manifest.mpd?token=AFMjEwZjI1NjU5YWY1NTM3ZmI2NGRiN2VhMDk5NTQwODg
+#EXTINF:-1 group-title="Мужские",Авто Плюс
+https://s25617.cdn.ngenix.net/mdrm/CH_AUTOPLUS/manifest.mpd?token=QmMmQxMTc4NWFmMDYwMzg1MTg1NTI4MDYzOTExMGRhYzQ
+#EXTINF:-1 group-title="Мужские",АВТО24 HD
+https://s25617.cdn.ngenix.net/mdrm/CH_AVTO24HD/manifest.mpd?token=NJNDRmNmM2NTFjZDFiY2ZiNjg1N2JmZGFhZjc4ZjgxYzU=
+#EXTINF:-1 group-title="Региoнальные",Аист HD
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_IRK_AIST/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Актис HD
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_IRK_AKTIS/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Амурское областное телевидение
+http://s84942.cdn.ngenix.net/hls/CH_R28_OTT_DV_BLAG_AOT/variant.m3u8?version=2
+#EXTINF:-1 group-title="Развлекательные",Анекдот ТВ
+https://s25617.cdn.ngenix.net/mdrm/CH_ANEKDOTTV/manifest.mpd?token=BaNzYzYWNhZmIwNTcyZjNmYThlMDI3Yzg0ZDgyYTMwNmM
+#EXTINF:-1 group-title="Региoнальные",Ариг Ус 24 HD
+http://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_UUDE_ARIGUS/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Ариг Ус 24 HD
+http://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R01_ARIGUS/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Арктик-TV HD
+http://rt-nw-murm-htlive.cdn.ngenix.net/hls/CH_R03_ARCTIC/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Архыз-24 HD
+http://rt-sth-cherks-htlive.cdn.ngenix.net/hls/CH_R03_OTT_STH_CHERKS_ARKHIZ241/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Архыз-24 Light (Карачаево-Черкесия)
+http://rt-sth-cherks-htlive.cdn.ngenix.net/hls/CH_R03_OTT_STH_CHERKS_ARKHIZ24LITE/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",АСТВ Южно-Сахалинск
+http://s14553.cdn.ngenix.net/hls/CH_R65_OTT_DV_SLIN_ACTV/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Астрахань 24 HD
+http://rt-sth-astrh-htlive.cdn.ngenix.net/hls/CH_R01_ASTRAKHAN24/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",АТВ-Медиа
+http://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R01_ATVMEDIA/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",АТВ-Ставрополь
+http://rt-sth-stavr-htlive.cdn.ngenix.net/hls/CH_R01_ATV/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Афонтово Красноярск HD
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_KRSK_AFONTOVO/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Барс
+http://rt-ct-ivan-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_IVAN_BARS/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Башкортостан 24
+http://s45177.cdn.ngenix.net/hls/CH_R02_BASHKORTOSTAN24/variant.m3u8?version=2
+#EXTINF:-1 group-title="Иностранные",Беларусь 24
+https://s25617.cdn.ngenix.net/mdrm/CH_BELARUS24/manifest.mpd?token=CrOGJjZDBjNWYyNDYzNjViNDFjMzRjM2I3ZDdjNGRiMTI
+#EXTINF:-1 group-title="Региoнальные",Белгород 24
+http://rt-ct-belg-htlive.cdn.ngenix.net/hls/CH_R02_BELGOROD24/variant.m3u8?version=2
+#EXTINF:-1 group-title="Развлекательные",БелРос
+https://s25617.cdn.ngenix.net/mdrm/CH_TRO/manifest.mpd?token=UqMTVjZWY0N2U3OTNhODgwZGM0MjI4YTE3OGM3MTUyNTc
+#EXTINF:-1 group-title="Познавательные",Бобёр
+https://s25617.cdn.ngenix.net/mdrm/CH_BOBER/manifest.mpd?token=NeYmM5ZjAxZWFmYWVmYzIwNzhlMDA1ODc1YmQzMGZhNjc
+#EXTINF:-1 group-title="КИНО",Большая Азия HD
+https://s25617.cdn.ngenix.net/mdrm/CH_BIGASIAHD/manifest.mpd?token=CYZDkxODQ5YThkMTM5OTc3Y2MwOWJiZjQzNjBlZjQxYWQ
+#EXTINF:-1 group-title="Региoнальные",Брянская Губерния
+http://rt-ct-bryansk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_BRYANSK_BRGRUBER/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",БСТ
+http://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R01_OTT_BST/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",БСТ-24 (Братск)
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_TNT_BR/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Буряад ТВ HD (Республика Бурятия)
+http://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R02_BURYAAD/variant.m3u8?version=2
+#EXTINF:-1 group-title="Детские",В гостях у сказки
+https://s25617.cdn.ngenix.net/mdrm/CH_VGOSTYAHUSKAZKI/manifest.mpd?token=SJZWMyOTBmZWE2MmNjODcxYjQ0NjNjMWNhMDUxZTZjNjc
+#EXTINF:-1 group-title="Региoнальные",Вектор 24
+http://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R02_VEKTOR24_GUBK/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Верхнекамье-ТВ (Березники)
+http://rt-ural-perm-htlive.cdn.ngenix.net/hls/CH_R02_VERHTV/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Ветта 24
+http://rt-ural-perm-htlive.cdn.ngenix.net/hls/CH_R01_OTT_VETTA24_PERM/variant.m3u8?version=2
+#EXTINF:-1 group-title="ИНФОРМАЦИОННЫЕ",ВМЕСТЕ-РФ
+https://s25617.cdn.ngenix.net/mdrm/CH_SOVETFEDERATSII/manifest.mpd?token=OnZmQzYzUxNTljOGY5NmFjYWQzOWRjOTlkMDIxY2Y2ZWY
+#EXTINF:-1 group-title="Региoнальные",Волга
+http://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R03_VOLGA/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Волгоград 1 HD
+http://rt-sth-vgrad-htlive.cdn.ngenix.net/hls/CH_R06_OTT_STH_VGRAD_VOLGOGRAD1/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Волгоград 24 HD
+http://rt-sth-vgrad-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_VGRAD_VOLGOGRAD24/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Восток 24
+http://s91030.cdn.ngenix.net/hls/CH_R01_OTT_DV_VLD_VOSTOK24_OTT/variant.m3u8?version=2
+#EXTINF:-1 group-title="Музыка",Восток ТВ
+https://s25617.cdn.ngenix.net/mdrm/CH_VOSTOKTV/manifest.mpd?token=RhMWQ5ODc2ZWU1OTgyNTMzZjUxNjc5ODEwZjcyNzkyZjc
+#EXTINF:-1 group-title="Региoнальные",ВОТ ТВ
+http://rt-ct-lipetsk-htlive.cdn.ngenix.net/hls/CH_R01_VOTTV/variant.m3u8?version=2
+#EXTINF:-1 group-title="Познавательные",Время
+https://s25617.cdn.ngenix.net/mdrm/CH_VREMYADIB/manifest.mpd?token=YhNDVhZjJlZTQ5ODg3MjU0ZDA5ZDlkMjViNGQxMTAxMmI
+#EXTINF:-1 group-title="Региoнальные",Время Н
+http://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R04_VREMYAN/variant.m3u8?version=2
+#EXTINF:-1 group-title="ИНФОРМАЦИОННЫЕ",Всё ТВ
+https://s72169.cdn.ngenix.net/hls/CH_VSETVHD/variant.m3u8
+#EXTINF:-1 group-title="Развлекательные",Всё ТВ HD
+http://zabava-htlive.cdn.ngenix.net/hls/CH_VSETVHD/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",ГИС Самара
+http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R02_SAMARAGIS/variant.m3u8?version=2
+#EXTINF:-1 group-title="Познавательные",Глазами туриста HD
+https://s25617.cdn.ngenix.net/mdrm/CH_GLAZAMITURISTAHD/manifest.mpd?token=ScODQ4YmNjNDk2MjU1OWJmZmEzNjI0YWZkZDMzY2E0YTY
+#EXTINF:-1 group-title="Региoнальные",Город Рязань
+http://rt-ct-ryaz-htlive.cdn.ngenix.net/hls/CH_R02_GOROD/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Городской телеканал Ярославль
+http://rt-ct-yarl-htlive.cdn.ngenix.net/hls/CH_R02_OTT_CT_YARL_GTREG/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Губерния (Хабаровск)
+http://s97982.cdn.ngenix.net/hls/CH_R27_OTT_DV_HVSK_GUBERNYA/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Губерния 33
+http://rt-ct-vlad-htlive.cdn.ngenix.net/hls/CH_R02_OTT_CT_VLAD_GUBERNIA33/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Губерния Самара
+http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R02_GUBERNIA/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Девон-инфо (Уфа)
+http://s45177.cdn.ngenix.net/hls/CH_R02_DEVONINFO/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Девятка ТВ
+http://rt-vlg-kirov-htlive.cdn.ngenix.net/hls/CH_R02_9TV/variant.m3u8?version=2
+#EXTINF:-1 group-title="Детские",Детский Мир
+https://s25617.cdn.ngenix.net/mdrm/CH_DETSKIJMIR/manifest.mpd?token=MmZDg1MzhmZGE2NGE2ZjJjMjA3NmYyYjI4ODdlNzNlN2Q
+#EXTINF:-1 group-title="Региoнальные",Дзержинск ТВ
+http://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R01_DZERZHINSK/variant.m3u8?version=2
+#EXTINF:-1 group-title="Познавательные",Диалоги о рыбалке HD
+https://s25617.cdn.ngenix.net/mdrm/CH_DIALORYBHD/manifest.mpd?token=M0NDQwOWQ1YTdhNDRjNjc4ZTM1ZDc1NTZhYzYxYzE5YjI
+#EXTINF:-1 group-title="Познавательные",Дикая охота HD
+https://s25617.cdn.ngenix.net/mdrm/CH_DIKAYAOHOTAHD/manifest.mpd?token=NmMzZlZTZlMDYwZjY0YzY1ZTQzOThiMDE0OTYzNzYyZTE
+#EXTINF:-1 group-title="Познавательные",Дикая рыбалка HD
+https://s25617.cdn.ngenix.net/mdrm/CH_DIKAYARYBALKAHD/manifest.mpd?token=MYNGY3NDA2NWYyZTZmY2NkNzA4OTRkNzk2OTg4ZDFlNjg
+#EXTINF:-1 group-title="Мужские",Дикий
+https://s25617.cdn.ngenix.net/mdrm/CH_DIKIY/manifest.mpd?token=MbYzViNjg2MTBjYjA1MDI1NzY0ZWQzYWRkZGFkNWM0MGQ
+
+
+
+#EXTINF:-1 group-title="Познавательные",Ратник HD
+https://s25617.cdn.ngenix.net/mdrm/CH_RATNIKHD/manifest.mpd?token=RUYThiMDk4NDAwMDdjNzQ4OTgxMzEyMWQxYWViZTIxNDM
+
+
+
+
+#EXTINF:-1 group-title="Познавательные",Доктор
+https://s25617.cdn.ngenix.net/mdrm/CH_24DOC/manifest.mpd?token=D7MDJlYzdlZDk0MjNjYTY1MDVhNTYwMzU2ZDlhNjE3NTM
+#EXTINF:-1 group-title="КИНО",Дом кино
+https://s25617.cdn.ngenix.net/mdrm/CH_DOMKINO/manifest.mpd?token=GyZjFmYWUzZjA3ZWMwMDM0ZTNjNGJkNTQ4ODVkZDczMTk
+#EXTINF:-1 group-title="КИНО",Дом кино Премиум
+https://s25617.cdn.ngenix.net/mdrm/CH_DOMKINOPREMIUMHD/manifest.mpd?token=BuMGM4YjQ0YTQ5NzVhZWIzNjZiMDAxMzY0M2NiNjFlMmM
+#EXTINF:-1 group-title="Федеральные",Домашний
+https://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY/variant.m3u8
+#EXTINF:-1 group-title="ЭФИРНЫЕ",Домашний
+http://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",Домашний (+2)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNY_2/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",Домашний (+4)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY_4/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",Домашний (+7)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNY_7/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",Домашний HD
+https://s25617.cdn.ngenix.net/mdrm/CH_DOMASHNIYHD_OTT/manifest.mpd?token=r4NDEyYzcwMzk1ZDEyMTY0NDA4YjJjNzhhZTRkZDQwMDE=
+#EXTINF:-1 group-title="Региoнальные",Дон 24 HD
+http://rt-sth-rd-htlive.cdn.ngenix.net/hls/CH_R02_DON24/variant.m3u8?version=2
+#EXTINF:-1 group-title="КИНО",Дорама
+https://s25617.cdn.ngenix.net/mdrm/CH_DORAMA/manifest.mpd?token=AUNzQ2ODI3OWRkNzMyZDg4NTdmYzViNWNiZGE1ZmQ0MmQ
+#EXTINF:-1 group-title="Мужские",Драйв
+https://s25617.cdn.ngenix.net/mdrm/CH_DRIVE/manifest.mpd?token=TdOTJiNDRlYWMzNDlmYzhiYjEzYmQ2ZGIxN2U2YzQ0ZmM
+#EXTINF:-1 group-title="ИНФОРМАЦИОННЫЕ",Дума ТВ
+https://s25617.cdn.ngenix.net/mdrm/CH_DUMATV/manifest.mpd?token=SwM2I1ZGZlYjZhOWY0YmI2OTQ3OWQxMjRiYzIwNGQ1M2M
+#EXTINF:-1 group-title="Региoнальные",Евразия Орск
+http://rt-vlg-orb-htlive.cdn.ngenix.net/hls/CH_R02_EVRAZIY/variant.m3u8?version=2
+#EXTINF:-1 group-title="Познавательные",Еда
+https://s25617.cdn.ngenix.net/mdrm/CH_EDA/manifest.mpd?token=TEZmI0ZmE1NmRjMzg4NDUwNzczNWM3OGJmYjU0MGI4MDE
+#EXTINF:-1 group-title="Региoнальные",Енисей регион HD
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_KRSK_ENISEY/variant.m3u8?version=2
+#EXTINF:-1 group-title="Музыка",Жар Птица
+https://s25617.cdn.ngenix.net/mdrm/CH_JARPTIZA/manifest.mpd?token=WkOGEwY2UxZDAwZTU4NTdhNWIzNTM3OWFlNWFiZjkwZTE
+#EXTINF:-1 group-title="Музыка",ЖАРА HD
+https://s25617.cdn.ngenix.net/mdrm/CH_JARAHD/manifest.mpd?token=GkMDc4NDFmNzBkZDA4Nzg5MDEzODFmYTc1MmI4MDllNWE
+#EXTINF:-1 group-title="Познавательные",Живая Планета
+https://s25617.cdn.ngenix.net/mdrm/CH_JIVAYAPLANETA/manifest.mpd?token=AzOTM4OTEzYTNhNDViNmNiOTMwMDMwOTNlZjg5NmYwMTU
+#EXTINF:-1 group-title="Познавательные",Живи активно HD
+https://s25617.cdn.ngenix.net/mdrm/CH_ZHIVIAKTIVNOHD/manifest.mpd$OPT:adaptive-use-avdemux$OPT:avdemux-options={decryption_key=e7eacff6db5a362b6e4ec4d513579d49}
+#EXTINF:-1 group-title="Развлекательные",ЖиВи! HD
+https://s25617.cdn.ngenix.net/mdrm/CH_ZHIVIHD/manifest.mpd?token=UPZWY1NzljNDIzNzhmNmIxYTg0ZDljYTM0MzI2NWFhZjY
+#EXTINF:-1 group-title="Региoнальные",Заб.TV 24
+http://rt-sib-chita-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_CHITA_ZABTV/variant.m3u8?version=2
+#EXTINF:-1 group-title="Познавательные",Загородная жизнь HD
+https://s25617.cdn.ngenix.net/mdrm/CH_ZAGORODNAYAZHIZNHD/manifest.mpd?token=BwOTcwZTNlYTIxMWEyYzRmNDc0ZjMxMTU5N2Y1MDY3OWU
+#EXTINF:-1 group-title="Развлекательные",Зал суда HD
+https://s25617.cdn.ngenix.net/mdrm/CH_ZALSUDAHD/manifest.mpd?token=JzM2VmMTk3NTU2OTY2ZmNjMDhjMWM0MjI1YzdlNjM2OTQ
+#EXTINF:-1 group-title="Федеральные",Звезда
+https://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA/variant.m3u8
+#EXTINF:-1 group-title="ЭФИРНЫЕ",Звезда
+http://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",Звезда (+2)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA_2/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",Звезда (+4)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA_4/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",Звезда (+7)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA_7/variant.m3u8?version=2
+#EXTINF:-1 group-title="Познавательные",Звезда Плюс
+https://s25617.cdn.ngenix.net/mdrm/CH_ZVEZDAPLUSHD/manifest.mpd?token=ufZDVkZjI2NzZhNjg4OGVhNDVjN2MxZGZiZTIwMmU5ZjU=
+#EXTINF:-1 group-title="Региoнальные",Ивановское общественное телевидение
+http://rt-ct-ivan-htlive.cdn.ngenix.net/hls/CH_R02_OTT_CT_IVAN_IOT/variant.m3u8?version=2
+#EXTINF:-1 group-title="ИНФОРМАЦИОННЫЕ",Известия
+http://rt-ct-vrzh-htlive.cdn.ngenix.net/hls/CH_R01_IZVESTIYA/variant.m3u8
+#EXTINF:-1 group-title="ИНФОРМАЦИОННЫЕ",Известия HD
+https://s25617.cdn.ngenix.net/mdrm/CH_C03_IZVESTIYAHD/manifest.mpd?token=dhY2E5Mzc2YmFiZjQ3NzI5ZGE3NzY1NDQ0MGE2ZDU5ZWY=
+#EXTINF:-1 group-title="Региoнальные",Известия Воронеж
+http://rt-ct-vrzh-htlive.cdn.ngenix.net/hls/CH_R01_IZVESTIYA/variant.m3u8?version=2
+#EXTINF:-1 group-title="КИНО",Иллюзион+
+https://s25617.cdn.ngenix.net/mdrm/CH_ULLUSIONPLUS/manifest.mpd?token=O5Yzg3ZDhlNjk2Y2M5ZWNkZTFjOTRmNTVmMzQwNDc0YTk
+#EXTINF:-1 group-title="Региoнальные",Импульс (Ямало-Ненецкий АО)
+http://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R02_IMPULS_NBK/variant.m3u8?version=2
+#EXTINF:-1 group-title="КИНО",Индия
+https://s25617.cdn.ngenix.net/mdrm/CH_ZEETVHD/manifest.mpd?token=GaN2FkNDY4NTllMTBjMTM2ZGUzY2Y0NjdjM2U1ZjdlZWE
+#EXTINF:-1 group-title="Региoнальные",Инком ТВ (Талица)
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R01_OTT_INKOMTV/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Информационная служба Югры
+http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R01_OTT_PERVIYSOVETSKIY/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Истоки
+http://rt-ct-orl-htlive.cdn.ngenix.net/hls/CH_R01_ISTOKI/variant.m3u8?version=2
+#EXTINF:-1 group-title="Познавательные",История
+https://s25617.cdn.ngenix.net/mdrm/CH_ISTORIYA/manifest.mpd?token=Z9ZmQ4M2RkN2M5ZmE3ODgxZDg4N2ZjY2FhZTlmYjYyYTY
+#EXTINF:-1 group-title="Региoнальные",Кабардино-Балкария
+http://rt-sth-nalch-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_NALCH_KBR/variant.m3u8?version=2
+#EXTINF:-1 group-title="Развлекательные",Калейдоскоп ТВ
+https://s25617.cdn.ngenix.net/mdrm/CH_KALEJDOSKOPTV/manifest.mpd?token=NzMzYzYmIzYzhhNjFhMmZiMzlmZDQyNGY5YWI3YmUzNTQ
+#EXTINF:-1 group-title="Региoнальные",Кам ТВ (Камышлов)
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_OTT_KAMTV/variant.m3u8?version=2
+#EXTINF:-1 group-title="Познавательные",Камчатка 1 HD
+http://s14131.cdn.ngenix.net/hls/CH_R41_OTT_DV_KAM_KAMCHATKA/variant.m3u8?version=2
+#EXTINF:-1 group-title="Детские",Карусель
+https://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL/variant.m3u8
+#EXTINF:-1 group-title="Детские",Карусель (+2)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL_2/variant.m3u8?version=2
+#EXTINF:-1 group-title="Детские",Карусель (+4)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL_4/variant.m3u8?version=2
+#EXTINF:-1 group-title="Детские",Карусель (+7)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL_7/variant.m3u8?version=2
+#EXTINF:-1 group-title="Детские",Карусель HD
+https://s25617.cdn.ngenix.net/mdrm/CH_KARUSELHD/manifest.mpd?token=wUMDQ4NjJlZTQwODk0ZWYyMjMxNzEyZWFhY2Q2Zjk5MmM=
+#EXTINF:-1 group-title="Региoнальные",Каскад-24
+http://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R01_KASKAD/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Катунь 24
+http://rt-sib-bul-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_BUL_KATUN24/variant.m3u8?version=2
+#EXTINF:-1 group-title="КИНО",КИНЕКО HD
+https://s25617.cdn.ngenix.net/mdrm/CH_C02_FOXHD/manifest.mpd?token=M9NDFkOGZlY2FhODM0MDFmMzVlNTg0NzE3MTJjN2RlNzU
+#EXTINF:-1 group-title="КИНО",Кино ТВ HD
+https://s25617.cdn.ngenix.net/mdrm/CH_KINOTVHD/manifest.mpd?token=M1YmUzODUzMDAwODRkZDdlYzhiNmY2ODU0ODczMWQ1MTM
+#EXTINF:-1 group-title="КИНО",КИНОКОМЕДИЯ
+https://s25617.cdn.ngenix.net/mdrm/CH_COMEDYTV/manifest.mpd?token=6VODY3MjM2ZWRmZjY1M2RlMjg0NTJjZjU5MmYzNDYwOTc
+#EXTINF:-1 group-title="КИНО",КИНОМИКС
+https://s25617.cdn.ngenix.net/mdrm/CH_NTVPLUSKINO/manifest.mpd?token=RPOTc2MmFiNzcxYTU3M2Q0NDUyYjAwOTNiYmJiYWQ1YTg
+#EXTINF:-1 group-title="КИНО",КИНОПРЕМЬЕРА
+https://s25617.cdn.ngenix.net/mdrm/CH_KINOPREMIEREHD/manifest.mpd?token=DMYmQ4MGJiMDE3ZDNlYzNlNTczNGE0ZmRkMzlmNGZkNjY
+#EXTINF:-1 group-title="КИНО",КИНОСВИДАНИЕ
+https://s25617.cdn.ngenix.net/mdrm/CH_KINODATEHD/manifest.mpd?token=XAOTM0MzVlYTIyNTZiYzVkOWJiOGNkY2JmMTEwM2ExNTE
+#EXTINF:-1 group-title="КИНО",КИНОСЕМЬЯ
+https://s25617.cdn.ngenix.net/mdrm/CH_KINOFAMILYHD/manifest.mpd?token=VeYTMwYzc0ZjM2NGJiMTE3NDdlMjMzN2I3ZDI5NzBiZTc
+#EXTINF:-1 group-title="КИНО",КИНОСЕРИЯ
+https://s25617.cdn.ngenix.net/mdrm/CH_KINOSERIAHD/manifest.mpd?token=LzZTI2NmNjMGM0OWUzMzVlZGM2MGNjN2YwNDUwZThjMmM
+#EXTINF:-1 group-title="КИНО",Киноужас
+https://s25617.cdn.ngenix.net/mdrm/CH_KINOUZHASHD/manifest.mpd?token=B6NTljNzVlNmE5MjUwZWEyNDViMjQ0OWFkODI5YWQwZDM
+#EXTINF:-1 group-title="КИНО",КИНОХИТ
+https://s25617.cdn.ngenix.net/mdrm/CH_KINOHITHD/manifest.mpd?token=ZfOTZlODE5ZmQxY2JiYzUwMjJiMTI1Y2NhZGU0NTVhYzE
+#EXTINF:-1 group-title="Познавательные",Ключ
+https://s25617.cdn.ngenix.net/mdrm/CH_KEY/manifest.mpd?token=PtNTMwMDM2NjA1MGNiZDFlMzcxZDc0M2ViMDZlMWI5YWM
+#EXTINF:-1 group-title="Региoнальные",Колыма-Плюс HD
+http://s20441.cdn.ngenix.net/hls/CH_R49_OTT_DV_MGDN_KOLYMA/variant.m3u8?version=2
+#EXTINF:-1 group-title="КИНО",Комедия
+https://s25617.cdn.ngenix.net/mdrm/CH_KOMEDIA/manifest.mpd?token=RhMmExYjY2MTU1YWVlZjFmZGU5OTQxN2FmYTRlMzhmNjU
+#EXTINF:-1 group-title="Региoнальные",Котлас ТВ
+http://rt-nw-arkh-htlive.cdn.ngenix.net/hls/CH_R01_KOTLASTV/variant.m3u8?version=2
+#EXTINF:-1 group-title="ИНФОРМАЦИОННЫЕ",Красная Линия
+https://s25617.cdn.ngenix.net/mdrm/CH_REDLINE/manifest.mpd?token=WbYjk3ZTVkNGNhZDE5MjFkNmMzNTI4MzNjOTZkZTI0N2M
+#EXTINF:-1 group-title="Региoнальные",Краснодар HD
+http://rt-sth-krdar-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_KRDAR_KRASNODAR/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",КТВ Город
+http://rt-ct-vrzh-htlive.cdn.ngenix.net/hls/CH_R02_OTT_CT_VRZH_CTVGOROD/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",КТВ-Луч (Сызрань)
+http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R01_KTVLUCH/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Кубань 24
+http://rt-sth-krdar-htlive.cdn.ngenix.net/hls/CH_R04_OTT_STH_KRDAR_KUBAN24-T/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Кубань 24 Орбита
+http://rt-sth-krdar-htlive.cdn.ngenix.net/hls/CH_R04_KUBAN24/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Кузбасс 1
+http://rt-sib-kem-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_KEM_GTRK/variant.m3u8?version=2
+#EXTINF:-1 group-title="Познавательные",Кухня
+https://s25617.cdn.ngenix.net/mdrm/CH_KUHNYA/manifest.mpd?token=Q0ZmNlODVlYjIzM2MxMWU5ZjhjZjc4ODI2NzIxMDRlYWQ
+#EXTINF:-1 group-title="ИНФОРМАЦИОННЫЕ",ЛДПР ТВ
+https://s25617.cdn.ngenix.net/mdrm/CH_LDPR/manifest.mpd?token=ShNjc0ZTdkY2IwYTFkYmZjNGI0ZTA4ZmVjNmYxNGI1NWE
+#EXTINF:-1 group-title="Региoнальные",Лен ТВ 24
+https://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R02_LENTVSD/variant.m3u8
+#EXTINF:-1 group-title="Региoнальные",Лен ТВ 24
+http://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R02_LENTVSD/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Липецкое время HD
+http://rt-ct-lipetsk-htlive.cdn.ngenix.net/hls/CH_R02_OTT_CT_LIPETSK_LVREM/variant.m3u8?version=2
+#EXTINF:-1 group-title="КИНО",Любимое Кино
+https://s25617.cdn.ngenix.net/mdrm/CH_LUBIMOE/manifest.mpd?token=ZJM2MyOTQwMTAyNDhiYTk4YmFjODllOWRiNjczMzQxY2I
+#EXTINF:-1 group-title="Музыка",Ля-минор
+https://s25617.cdn.ngenix.net/mdrm/CH_AMOLL/manifest.mpd?token=Q2ZTQ5YzcxZjhhMTE3NWFkOTFlMTU1ZWU0MWQxMWQwZDI
+#EXTINF:-1 group-title="Детские",Лёва HD
+https://s25617.cdn.ngenix.net/mdrm/CH_LEVAHD/manifest.mpd?token=K5YjkzNmNlOTg4MDM5NWUwMGZmMjUyY2I5ZjhkY2QxMWE=
+#EXTINF:-1 group-title="Региoнальные",Майдан
+http://rt-vlg-kzn-htlive.cdn.ngenix.net/hls/CH_R05_MAIDAN/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Майкопское Телевидение
+http://rt-sth-krdar-htlive.cdn.ngenix.net/hls/CH_R04_OTT_STH_KRDAR_MAYKOP/variant.m3u8?version=2
+#EXTINF:-1 group-title="Познавательные",Мама
+https://s25617.cdn.ngenix.net/mdrm/CH_MATIDITYA/manifest.mpd?token=KIYzI3YzA0Mjc0NmI5ZGYxZWU1ZGVhMjlkZDE2ZmJhN2M
+#EXTINF:-1 group-title="Региoнальные",Мамонт ТВ
+http://s34351.cdn.ngenix.net/hls/CH_R14_OTT_DV_YKT_MAMONT/variant.m3u8?version=2
+#EXTINF:-1 group-title="Музыка",Матур ТВ
+http://s45177.cdn.ngenix.net/hls/CH_R02_MATURTV/variant.m3u8?version=2
+#EXTINF:-1 group-title="Спорт",Матч ТВ
+http://zabava-htlive.cdn.ngenix.net/hls/CH_MATCHTV/variant.m3u8?version=2
+#EXTINF:-1 group-title="Спорт",Матч! HD
+https://s25617.cdn.ngenix.net/mdrm/CH_MATCHTVHD_OTT/manifest.mpd?token=M1MzBmODYzNTY4ODRjNjMxMDEzYjk1OGRhNDlmM2JlNWQ
+#EXTINF:-1 group-title="Спорт",Матч! Арена HD
+https://s25617.cdn.ngenix.net/mdrm/CH_C04_SPORT1HD/manifest.mpd?token=N0NTM0NTQ1NjdkZDVkZjRiNTMxZDk5MDc4MGY5NTA5ZmE
+#EXTINF:-1 group-title="Спорт",Матч! Боец
+https://s25617.cdn.ngenix.net/mdrm/CH_BOETZ/manifest.mpd?token=MJZmZiNWE3Y2MyZmYxOTM1NWVlMjgwN2UyYzQxNjM4OTc
+#EXTINF:-1 group-title="Спорт",Матч! Игра HD
+https://s25617.cdn.ngenix.net/mdrm/CH_MATCHIGRAHD/manifest.mpd?token=C0ZjUyNTBmYWY0NDI5OWM0YmNiNzg5Mzg1YWI2YmRkZmU
+#EXTINF:-1 group-title="Спорт",Матч! Премьер HD
+https://s25617.cdn.ngenix.net/mdrm/CH_C06_NASHFOOTBALLHD/manifest.mpd?token=IoMDcwYmEwNThjN2M2YzBmM2Q0ZWJhYTE0NTBiOWViM2Q=
+#EXTINF:-1 group-title="Спорт",Матч! Страна
+https://s25617.cdn.ngenix.net/mdrm/CH_NTVPLUSPORT/manifest.mpd?token=NMYmZhMmY5ZThiM2I2NjA5NjdiMDhjMmU1MDYxNmQyMTQ
+#EXTINF:-1 group-title="Спорт",Матч! Футбол 1 HD
+https://s25617.cdn.ngenix.net/mdrm/CH_FUTBALL1HD/manifest.mpd?token=YjZGUyOGI1NzQwZGM0Mjg2ZGY0MjgyYzBiZGJkOGI1MmQ=
+#EXTINF:-1 group-title="Спорт",Матч! Футбол 2 HD
+https://s25617.cdn.ngenix.net/mdrm/CH_FUTBALL2HD/manifest.mpd?token=eeMzZmMmY0NzgwNmFjODk0YmEzYjRmYmFhODhiN2U0NDE=
+#EXTINF:-1 group-title="Спорт",Матч! Футбол 3 HD
+https://s25617.cdn.ngenix.net/mdrm/CH_FUTBALL3HD/manifest.mpd?token=gsNGZmOGFjMTVkNDliMjBiYWUyOTRlNzhjYTIwNDE4OTU=
+#EXTINF:-1 group-title="Региoнальные",Миг ТВ Ноябрьск HD
+http://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_MIG_TV_URAL_YNF/variant.m3u8?version=2
+#EXTINF:-1 group-title="Федеральные",Мир
+https://zabava-htlive.cdn.ngenix.net/hls/CH_MIR/variant.m3u8
+#EXTINF:-1 group-title="ЭФИРНЫЕ",Мир
+http://zabava-htlive.cdn.ngenix.net/hls/CH_MIR/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",Мир (+2)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_MIR_2/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",Мир (+4)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_MIR_4/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",Мир (+7)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_MIR_7/variant.m3u8?version=2
+#EXTINF:-1 group-title="ИНФОРМАЦИОННЫЕ",Мир 24
+https://s25617.cdn.ngenix.net/mdrm/CH_MIR24/manifest.mpd?token=W5YzQwZTUzMjU0NGU2ZjcyNTdhNjc0NzkzNGI4MGI2NTQ
+#EXTINF:-1 group-title="Общие",Мир HD
+https://s25617.cdn.ngenix.net/mdrm/CH_MIRHD/manifest.mpd?token=1fNjVmOGU5OTMxNjUxNWNkYmIxZDMwYjBhMmFiZDEwZjY=
+#EXTINF:-1 group-title="Спорт",Мир Баскетбола
+https://s25617.cdn.ngenix.net/mdrm/CH_MIRBASKETBOLA/manifest.mpd?token=YvMDRkYWI2NDQzMmVjN2NjOTI1NjhkZTk4YTc0ZmM1YWU
+#EXTINF:-1 group-title="Региoнальные",Мир Белогорья
+http://rt-ct-belg-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_BELG_MIR_BLG/variant.m3u8?version=2
+#EXTINF:-1 group-title="КИНО",Мир сериала
+https://s25617.cdn.ngenix.net/mdrm/CH_MIRSERIALA/manifest.mpd?token=U9YmQ2MDNmNmU5MzdkNzdjMDA2YjUzMGQwODM3NWQyNzM
+#EXTINF:-1 group-title="ИНФОРМАЦИОННЫЕ",Москва 24
+https://rt-mos-htlive.cdn.ngenix.net/hls/CH_R04_MOSKOV24/variant.m3u8
+#EXTINF:-1 group-title="Развлекательные",Москва. Доверие
+https://rt-mos-htlive.cdn.ngenix.net/hls/CH_R04_DOVERIE/variant.m3u8
+#EXTINF:-1 group-title="Развлекательные",Москва. Доверие
+http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R04_DOVERIE/variant.m3u8?version=2
+#EXTINF:-1 group-title="КИНО",Мосфильм. Золотая коллекция
+https://s25617.cdn.ngenix.net/mdrm/CH_MOSFILMHD/manifest.mpd?token=JIZTk5NzUwMmYxNWUzZWI1ZjUwNjFmY2FmZGYxYTEyNzk
+#EXTINF:-1 group-title="Спорт",Моторспорт ТВ HD
+https://s25617.cdn.ngenix.net/mdrm/CH_MOTORSPORTTVHD/manifest.mpd?token=FjOTkzOGYwNjQyNDRmNTM4YzVjNTY2ZmM5NGFjZGVhN2M
+#EXTINF:-1 group-title="Познавательные",Моя Планета
+https://s25617.cdn.ngenix.net/mdrm/CH_MYPLANET/manifest.mpd?token=WKMWEwYzdlNjdjN2JkNGE1OTk1ZTBkNzFjNDZjYWU2YmY
+#EXTINF:-1 group-title="Познавательные",Моя Планета HD
+https://s25617.cdn.ngenix.net/mdrm/CH_IQHD/manifest.mpd?token=lFYTg4ZTUzMDAxYTU4YzQzNWQ4M2RkNmVmYmExYjUyNzQ
+#EXTINF:-1 group-title="КИНО",МУЖСКОЕ КИНО
+https://s25617.cdn.ngenix.net/mdrm/CH_NTVPLUSKINOSOYUZ/manifest.mpd?token=HcMDYxYTY2M2Q4OTcyYzFmMDg3NWY1MmE4MmNhMDY2Zjc
+#EXTINF:-1 group-title="Мужские",Мужской
+https://s25617.cdn.ngenix.net/mdrm/CH_MUZHSKOY/manifest.mpd?token=QBOWYwN2Q1MjZkMWVjZTg1MDU2M2E2OGNlYjM2ZjNlYWM
+#EXTINF:-1 group-title="Музыка",Муз ТВ
+https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/variant.m3u8
+#EXTINF:-1 group-title="Музыка",Муз ТВ (+2)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_2/variant.m3u8?version=2
+#EXTINF:-1 group-title="Музыка",Муз ТВ (+4)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_4/variant.m3u8?version=2
+#EXTINF:-1 group-title="Музыка",Муз ТВ (+7)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_7/variant.m3u8?version=2
+#EXTINF:-1 group-title="Музыка",МУЗ-ТВ HD
+https://s25617.cdn.ngenix.net/mdrm/CH_MUZHD/manifest.mpd$OPT:adaptive-use-avdemux$OPT:avdemux-options={decryption_key=115419027d5d06fb5ac33ab7e51c2af2}
+#EXTINF:-1 group-title="Музыка",Музыка Первого
+https://s25617.cdn.ngenix.net/mdrm/CH_MUZYKAPERVOGO/manifest.mpd?token=MRN2I4MDRlM2ZhMGI2ZmNkMGNjMmRhNzZhMTYxYWRmZjk
+#EXTINF:-1 group-title="Детские",МУЛЬТ
+https://s25617.cdn.ngenix.net/mdrm/CH_MULT/manifest.mpd?token=ZPNzYxOTU2NjdiMWVlMDQ3ZThkZTA4MDZlNGY0YjljNjI
+#EXTINF:-1 group-title="Детские",МУЛЬТ HD
+https://s25617.cdn.ngenix.net/mdrm/CH_TLUMHD/manifest.mpd?token=UPNWUyZTczNTU2Njg5NmRiMjM3YWUyNGQ3ODdkYzZlMTc
+#EXTINF:-1 group-title="Детские",Мультиландия
+https://s25617.cdn.ngenix.net/mdrm/CH_MULTIMANIA/manifest.mpd?token=X7ZTFiOTcyNjZmZGE1MTBmOTZhZmQ4ZTliYjQ0ZjJmMjY
+#EXTINF:-1 group-title="Детские",Мультимузыка
+https://s25617.cdn.ngenix.net/mdrm/CH_STRANA/manifest.mpd?token=IQNThlZDNmMzk1YzY5NTRiODdlOTdlNWNjZTJjYzEzMWQ
+#EXTINF:-1 group-title="Региoнальные",Муравленко 24
+http://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_MURAVLENKO_24/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Мы и город
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_OTT_MIGOR_URAL_KRASN/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",МЭТР
+http://rt-vlg-yola-htlive.cdn.ngenix.net/hls/CH_R03_METR/variant.m3u8?version=2
+#EXTINF:-1 group-title="КИНО",Настоящее Страшное Телевидение
+https://s25617.cdn.ngenix.net/mdrm/CH_NSTV/manifest.mpd?token=D7ZWQ5YzY5Mzk3ZjMxOTQ0ZjA3ZjJjNzcwZTFlYTlkNTM
+#EXTINF:-1 group-title="Познавательные",Наука
+https://s25617.cdn.ngenix.net/mdrm/CH_NAUKA20/manifest.mpd?token=YJYmQzZGU1MTdkNGU5MmRmN2JiOWZkN2UzZWZkNTA5YzA
+#EXTINF:-1 group-title="Региoнальные",Наш дом
+http://rt-vlg-penza-htlive.cdn.ngenix.net/hls/CH_R03_NASHDOM/variant.m3u8?version=2
+#EXTINF:-1 group-title="Познавательные",Наша Сибирь 4K
+https://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/variant.m3u8
+#EXTINF:-1 group-title="Познавательные",Наша Сибирь 4K HD
+http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/variant.m3u8?version=2
+#EXTINF:-1 group-title="КИНО",НАШЕ НОВОЕ КИНО
+https://s25617.cdn.ngenix.net/mdrm/CH_NTVPLUSNOVOEKINO/manifest.mpd?token=NWYWYzMDg1MTJmOGQxYmM4YTY2NDBmM2VjNWI2NDg4Mzg
+#EXTINF:-1 group-title="Региoнальные",Наши города (Когалым)
+http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_NGOR_URAL_SUR/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",НВК Саха (Якутск)
+http://s34351.cdn.ngenix.net/hls/CH_R03_OTT_DV_YKT_NVC_OTT/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Ника ТВ
+http://rt-ct-kaluga-htlive.cdn.ngenix.net/hls/CH_R01_NIKA/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",ННТВ
+http://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R02_NNTV/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Новгородское областное телевидение
+http://rt-nw-novg-htlive.cdn.ngenix.net/hls/CH_R02_NOVGORODTV/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Новое время (Радужный)
+http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_RADUZNYI/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Новый век (Тамбов)
+http://rt-ct-tamb-htlive.cdn.ngenix.net/hls/CH_R03_OTT_CT_TAMB_NOVIY_VEK/variant.m3u8?version=2
+#EXTINF:-1 group-title="Федеральные",НТВ
+https://zabava-htlive.cdn.ngenix.net/hls/CH_NTV/variant.m3u8
+#EXTINF:-1 group-title="ЭФИРНЫЕ",НТВ
+http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",НТВ (+2)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_2/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",НТВ (+4)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_4/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",НТВ (+7)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_7/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",НТВ (Мурманск)
+http://rt-nw-murm-htlive.cdn.ngenix.net/hls/CH_R03_OTT_NW_MURM_NTV/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",НТВ HD
+https://s25617.cdn.ngenix.net/mdrm/CH_NTV_HD/manifest.mpd?token=2hMzg1NTNiMzI4OTNiNmFjZGU2YzgzZDAzNzk5MGJiMTA=
+#EXTINF:-1 group-title="Познавательные",НТВ Право
+https://s25617.cdn.ngenix.net/mdrm/CH_NTVPRAVO/manifest.mpd?token=33YzU1YmY1NTI1MjliMzZmZmNiMWNkYjEyZWI3MWE0NjE=
+#EXTINF:-1 group-title="КИНО",НТВ Сериал
+https://s25617.cdn.ngenix.net/mdrm/CH_NTVSERIAL/manifest.mpd?token=hGZDc2ZDM2MjE3MTA0NmFlYjRlN2FmNDg4NDcyYWQxM2E=
+#EXTINF:-1 group-title="Познавательные",НТВ Стиль
+https://s25617.cdn.ngenix.net/mdrm/CH_NTVSTYLE/manifest.mpd?token=k4YmJjMWQ4YjBiOTkxNzMzZDY4NjU0YjAxNzJjM2UwMmU=
+#EXTINF:-1 group-title="Региoнальные",НТК Губерния (Хабаровск)
+http://s97982.cdn.ngenix.net/hls/CH_R79_OTT_DV_HVSK_NTK/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",НТМ
+http://rt-vlg-srnk-htlive.cdn.ngenix.net/hls/CH_R01_NTM/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",НТС Иркутск
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_IRK_RENTVIRK/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",НТС-Ирбит
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_IRBITVEST_EKT/variant.m3u8?version=2
+#EXTINF:-1 group-title="Детские",О!
+https://s25617.cdn.ngenix.net/mdrm/CH_O/manifest.mpd?token=CYMGY5MTIxNWJhNjgxYWVhN2QxZWUwYTYzMjQzN2FjOTY
+#EXTINF:-1 group-title="Развлекательные",О2ТВ HD
+https://s25617.cdn.ngenix.net/mdrm/CH_O2TVHD/manifest.mpd?token=QLZTQ0MzY1Yzg0ZWM3ZDA2YTQ4ZGZmMzAwMDc5ZDEyNmQ
+#EXTINF:-1 group-title="Региoнальные",Область 45 HD (Курган)
+http://rt-ural-krg-htlive.cdn.ngenix.net/hls/CH_R04_OTT_OBLAST45/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Объектив 59 HD
+http://rt-ural-perm-htlive.cdn.ngenix.net/hls/CH_R04_OTT_OBJECTIVE59/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Омск-ТВ
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_OMSKTV/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",ОРТ-Планета (Оренбург)
+http://rt-vlg-orb-htlive.cdn.ngenix.net/hls/CH_R03_ORTPLANET/variant.m3u8?version=2
+#EXTINF:-1 group-title="Мужские",Оружие
+https://s25617.cdn.ngenix.net/mdrm/CH_WEAPON/manifest.mpd?token=Q0ODhmMTM5ODBkYmZiNjI1MDEwMjUyNzU0ZDIxNjBmYTY
+#EXTINF:-1 group-title="Региoнальные",Осетия-Ирыстон HD
+http://rt-sth-vkaz-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_VKAZ_IRISTON/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",ОТВ Екатеринбург HD
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R02_OTT_OTV_URAL_EKT/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",ОТВ Приморье
+http://s91030.cdn.ngenix.net/hls/CH_R25_OTT_DV_VLD_OTV/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",ОТВ Сахалин
+http://s14553.cdn.ngenix.net/hls/CH_R65_OTT_DV_SLIN_OTV_SLIN/variant.m3u8?version=2
+#EXTINF:-1 group-title="Федеральные",ОТР
+https://zabava-htlive.cdn.ngenix.net/hls/CH_OTR/variant.m3u8
+#EXTINF:-1 group-title="ЭФИРНЫЕ",ОТР
+http://zabava-htlive.cdn.ngenix.net/hls/CH_OTR/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",ОТР (Екатеринбург)
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R01_OTT_OTR_EKT/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",ОТР (Оренбург)
+http://rt-vlg-orb-htlive.cdn.ngenix.net/hls/CH_R01_OTR/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",ОТР (Сыктывкар)
+http://rt-nw-komi-htlive.cdn.ngenix.net/hls/CH_R01_OTR_SKTV/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",ОТС HD
+http://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_NSK_OTS/variant.m3u8?version=2
+#EXTINF:-1 group-title="Мужские",Охота и рыбалка
+https://s25617.cdn.ngenix.net/mdrm/CH_OHOTAIRYBALKS/manifest.mpd?token=C4NzRkY2NlYTZiODliYmUwZWM4MzU4YTVhZGM5ODgyNTQ
+#EXTINF:-1 group-title="Региoнальные",Панорама ТВ HD (Тверь)
+http://rt-ct-tver-htlive.cdn.ngenix.net/hls/CH_R01_PANORAMATV/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Первый городской (Киров)
+http://rt-vlg-kirov-htlive.cdn.ngenix.net/hls/CH_R03_PERVYGORODSKOY/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Первый городской (Омск)
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_OMSK_1GORODSKOY/variant.m3u8?version=2
+#EXTINF:-1 group-title="Федеральные",Первый канал
+https://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD/variant.m3u8
+#EXTINF:-1 group-title="ЭФИРНЫЕ",Первый канал
+http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",Первый канал (+1)
+http://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R03_1TV/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",Первый канал (+2)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD_2/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",Первый канал (+3)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD_3/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",Первый канал (+4)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD_4/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",Первый канал (+5)
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R03_1TV_IRKUTSK/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",Первый канал (+6)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD_6/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",Первый канал (+7)
+http://s91030.cdn.ngenix.net/hls/CH_R25_OTT_DV_VLD_1TV/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",Первый канал (+8)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD_8/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",Первый канал (+9)
+http://s14131.cdn.ngenix.net/hls/CH_R41_OTT_DV_KAM_1TV/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",Первый канал (-1)
+http://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R03_1TV_KLNG/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Первый канал (Магадан)
+http://s20441.cdn.ngenix.net/hls/CH_R49_OTT_DV_MGDN_1TV/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",Первый канал HD
+https://s25617.cdn.ngenix.net/mdrm/CH_1TVHD_OTT/manifest.mpd?token=5hMzE4NTRkOTI2MmYyNTBmYzBjMjY1YjU4NTgwNTJkM2Y=
+#EXTINF:-1 group-title="ЭФИРНЫЕ",Первый канал HD (Outside)
+https://er-cdn.ertelecom.ru/os/video/hls/d1cc31b408ad4c2458dd5e009db13730c18ba3411df1216e6b8f5b7ccdaed01f1a904d99e5150cfa137507b4d6e7062221c094bca81f4026846a9a8b761790fd6af7a39847735253d86ba5f3950e9861f18798e32d6c4a436e2f371e2c21b19ceb2e7ac067d5b6dd139ba16fbc0f19fb86ead87db38698d7f9da81ffdb9cd219336bc58ce26d43cf7309f37f353682785177a2c7f0bae10fffb8e4069164ff3749dd287924609ca0a99291308003a5147486c560f9156778fcba278a870676f58e93617618272a7f3338c135e46c60ac67e4391149111cd4ebf19d8454eca920a26a02a9f5262d579c9e7bc981f47ea898830a8ddfabb92502e25475cd6ad78610ee91bd15c214afd163180d6875dcc7/playlist.m3u8
+#EXTINF:-1 group-title="Региoнальные",Первый областной Орел
+http://rt-ct-orl-htlive.cdn.ngenix.net/hls/CH_R01_PERVOBL/variant.m3u8?version=2
+#EXTINF:-1 group-title="Познавательные",Первый Российский Национальный Канал
+https://s25617.cdn.ngenix.net/mdrm/CH_PERVIJNATSIONALNIYHD/manifest.mpd?token=LpYmE2YzQwZTU1NGE2NzAyZDAxN2NmOWM4OTQ1NWRlMDU=
+#EXTINF:-1 group-title="Региoнальные",Первый Тульский HD
+http://rt-ct-tula-htlive.cdn.ngenix.net/hls/CH_R01_PERV_TUL/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Первый Ярославский HD
+http://rt-ct-yarl-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_YARL_NTM/variant.m3u8?version=2
+#EXTINF:-1 group-title="Развлекательные",Победа HD
+https://s25617.cdn.ngenix.net/mdrm/CH_POBEDAHD/manifest.mpd?token=D1OWYxMDAxMjdhMzg0NDY2ZjAzMzY1ODkwMjE0ZDMxMWI
+#EXTINF:-1 group-title="Познавательные",ПОЕХАЛИ!
+https://s25617.cdn.ngenix.net/mdrm/CH_POEHALIHD/manifest.mpd?token=XkYmUzNzlkYzhlNDlmOGQzY2U5ZTIzM2Y1ZDBiNGJiYTc
+#EXTINF:-1 group-title="Региoнальные",Прима
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R11_OTT_SIB_KRSK_STS/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Про жизнь HD
+http://rt-sib-nvkz-htlive.cdn.ngenix.net/hls/CH_R01_PROJIZN/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Продвижение (Омск)
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_PRODVIZHENIE/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Продвижение (Тамбов)
+http://rt-ct-tamb-htlive.cdn.ngenix.net/hls/CH_R03_PRODVIZHENIE/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Продвижение-Астрахань HD
+http://rt-sth-astrh-htlive.cdn.ngenix.net/hls/CH_R03_PRO_ASTRAKHAN/variant.m3u8?version=2
+#EXTINF:-1 group-title="Познавательные",Просвещение
+https://s25617.cdn.ngenix.net/mdrm/CH_PROSVESCHENIE/manifest.mpd?token=MtMTc5Njk2NjAxZjU5MzBjZmYzZTNiNDI5YThiZmJlYTc
+#EXTINF:-1 group-title="Развлекательные",Пятница
+http://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA/variant.m3u8?version=2
+#EXTINF:-1 group-title="Развлекательные",Пятница (+2)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_FRIDAY_2/variant.m3u8?version=2
+#EXTINF:-1 group-title="Развлекательные",Пятница (+4)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA_4/variant.m3u8?version=2
+#EXTINF:-1 group-title="Развлекательные",Пятница (+7)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_FRIDAY_7/variant.m3u8?version=2
+
+
+#EXTINF:-1 group-title="Развлекательные",Пятница!
+https://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA/variant.m3u8
+#EXTINF:-1 group-title="Развлекательные",Пятница! HD
+https://s25617.cdn.ngenix.net/mdrm/CH_PYATNIZZAHD_OTT/manifest.mpd?token=pFODZjYzhmN2UxYTc0MWVjNWFlYzMzNzAwZDNiMzBjNjU
+#EXTINF:-1 group-title="Федеральные",Пятый канал
+https://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/variant.m3u8
+#EXTINF:-1 group-title="ЭФИРНЫЕ",Пятый канал
+http://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",Пятый канал (+2)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_5TV_2/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",Пятый канал (+4)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_5TV_4/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",Пятый канал (+7)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_5TV_7/variant.m3u8?version=2
+#EXTINF:-1 group-title="Детские",Радость Моя
+https://s25617.cdn.ngenix.net/mdrm/CH_RADOSTMOYA/manifest.mpd?token=SWNjM1NGZhMzRjOWViZDI1ZWM4MGNjNzIxOGU4MzdjZmY
+#EXTINF:-1 group-title="Познавательные",Ратник
+https://s25617.cdn.ngenix.net/mdrm/CH_RATNIKHD/manifest.mpd?token=RUYThiMDk4NDAwMDdjNzQ4OTgxMzEyMWQxYWViZTIxNDM
+#EXTINF:-1 group-title="ИНФОРМАЦИОННЫЕ",РБК HD
+https://s25617.cdn.ngenix.net/mdrm/CH_RBKTVHD/manifest.mpd?token=trM2YyNTM3MjJhYzI1YWE1MjQyNWYxNmFhODU2NzI1YTA=
+#EXTINF:-1 group-title="Региoнальные",РБК Краснодар
+http://rt-sth-krdar-htlive.cdn.ngenix.net/hls/CH_R06_OTT_STH_KRDAR_RBC-KRD/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",РБК Новосибирск
+http://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_NSK_RBC/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",РБК Пермь
+http://rt-ural-perm-htlive.cdn.ngenix.net/hls/CH_R02_OTT_RBC_PERM/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",РГВК Дагестан
+http://rt-sth-mahachk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_MAHACHK_DAGESTAN/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Регион 29
+http://rt-nw-arkh-htlive.cdn.ngenix.net/hls/CH_R02_PRAVDASEVERA/variant.m3u8?version=2
+#EXTINF:-1 group-title="Федеральные",РЕН ТВ
+https://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/variant.m3u8
+#EXTINF:-1 group-title="ЭФИРНЫЕ",Рен ТВ
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",Рен ТВ (+2)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_2/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",Рен ТВ (+4)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_4/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",Рен ТВ (+7)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_7/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",РЕН ТВ HD
+https://s25617.cdn.ngenix.net/mdrm/CH_RENTVHD_OTT/manifest.mpd?token=jhMGY5NTdhNTM4YTk4ODkyNzhmZWJmYTMyMjNjYzAwMDk
+#EXTINF:-1 group-title="Региoнальные",Репортер 73
+http://rt-vlg-ul-htlive.cdn.ngenix.net/hls/CH_R03_REP73/variant.m3u8?version=2
+#EXTINF:-1 group-title="Развлекательные",Ретро
+https://s25617.cdn.ngenix.net/mdrm/CH_RETROTV/manifest.mpd?token=KiMDljMjA4YjRkNGE0Yjc3YmM5OTAzMWQzNDBhYTIzMTQ
+#EXTINF:-1 group-title="Региoнальные",РИМ
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_OTT_RIM_URAL_KURAL/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Рифей-ТВ Пермь
+http://rt-ural-perm-htlive.cdn.ngenix.net/hls/CH_R02_OTT_RENTV_REFEY_PERM/variant.m3u8?version=2
+#EXTINF:-1 group-title="КИНО",РОДНОЕ КИНО
+https://s25617.cdn.ngenix.net/mdrm/CH_NTVPLUSNASHEKINO/manifest.mpd?token=QYZTY1ZTg1NWI2NGUyN2VmYTUyZDk1OWM1OWY0MjZlYjg
+#EXTINF:-1 group-title="Федеральные",Россия 1
+https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1/variant.m3u8
+#EXTINF:-1 group-title="ЭФИРНЫЕ",Россия 1
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",Россия 1 (+1)
+http://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R04_OTT_VLG_SARATOV_ROSSIA1/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",Россия 1 (+2)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1_2/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",Россия 1 (+3)
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_SIB_OMSK_ROSSIA1_OMSKOBL/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",Россия 1 (+4)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1_4/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",Россия 1 (+5)
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R04_ROSSIA1_IRKUTSK/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",Россия 1 (+6)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1_7/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",Россия 1 (+7)
+http://s91030.cdn.ngenix.net/hls/CH_R25_OTT_DV_VLD_ROSSIA1/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",Россия 1 (+8)
+http://s20441.cdn.ngenix.net/hls/CH_R49_OTT_DV_MGDN_ROSSIA1/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",Россия 1 (+9)
+http://s14131.cdn.ngenix.net/hls/CH_R41_OTT_DV_KAM_ROSSIA1/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",Россия 1 (-1)
+http://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R04_OTT_NW_KLGR_ROSSIA1/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Россия 1 (Хабаровск)
+http://s97982.cdn.ngenix.net/hls/CH_R27_OTT_DV_HVSK_ROSSIA1/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",Россия 1 HD
+https://s25617.cdn.ngenix.net/mdrm/CH_C05_RUSSIA1HD/manifest.mpd?token=85NWNkNTkyMGQ3MWE5NjU2MTkzYjJhZTU0NDc5ZTNhMmQ=
+#EXTINF:-1 group-title="Федеральные",Россия 24
+https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/variant.m3u8
+#EXTINF:-1 group-title="Федеральные",Россия К
+https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK/variant.m3u8
+#EXTINF:-1 group-title="ЭФИРНЫЕ",Россия К
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",Россия К (+2)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK_2/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",Россия К (+4)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK_4/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",Россия К (+7)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK_7/variant.m3u8?version=2
+#EXTINF:-1 group-title="ИНФОРМАЦИОННЫЕ",Россия-24
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Россия-24 (Екатеринбург)
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R01_OTT_ROSSIA24_EKT/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Россия-24 (Магадан)
+http://s20441.cdn.ngenix.net/hls/CH_R49_OTT_DV_MGDN_ROSSIA24/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Россия-24 (Омск)
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_ROSSIA24_OMSKOBL/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Россия-24 (Хабаровск)
+http://s97982.cdn.ngenix.net/hls/CH_R27_OTT_DV_HVSK_ROSSIA24/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Ростов-папа HD
+http://rt-sth-rd-htlive.cdn.ngenix.net/hls/CH_R01_ROSTOVPAPA/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",РТК Забайкалье (Читинская область)
+http://rt-sib-chita-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_CHITA_RTKZAB/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",РТС - Абакан
+http://rt-sib-abakan-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_ABAKAN_RTS/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Рубин-ТВ (Осинский)
+http://rt-ural-perm-htlive.cdn.ngenix.net/hls/CH_R01_OTT_RUBINTV/variant.m3u8?version=2
+#EXTINF:-1 group-title="Взрослые",Русская ночь
+https://s25617.cdn.ngenix.net/mdrm/CH_RUSSIANNIGHT/manifest.mpd?token=ldZDA3MmI3Zjc1NzdlYTA0YTE2YjNjOGU2NjY5NGMzNTg=
+#EXTINF:-1 group-title="КИНО",Русский бестселлер
+https://s25617.cdn.ngenix.net/mdrm/CH_RUSSIANBESTSELLER/manifest.mpd?token=7CMGI0YWIxMjFlNjEzMjYyNGFlMTliODE1ZTViYjljZTc
+#EXTINF:-1 group-title="КИНО",Русский детектив
+https://s25617.cdn.ngenix.net/mdrm/CH_C04_RUSSIANDETECTIVE/manifest.mpd?token=XzZTZmYWI0YmM3YTc0Y2IzNDgyMmEyOTFmOTk3MmVkNWM
+#EXTINF:-1 group-title="КИНО",Русский Иллюзион
+https://s25617.cdn.ngenix.net/mdrm/CH_RUSSIANILLUSION/manifest.mpd?token=WqOWQyMzYwZThjMGQ3ZTVmMjBiMTIyNzU4YThkZjE2OTc
+#EXTINF:-1 group-title="КИНО",Русский Роман HD
+https://s25617.cdn.ngenix.net/mdrm/CH_RUSSKIYROMANHD/manifest.mpd?token=YgNGQ2Nzg2ZWEwZTQwOWIxOGFkYzI3MmUxMmY2YjZlZmQg
+#EXTINF:-1 group-title="Региoнальные",Русский Север
+http://rt-nw-vol-htlive.cdn.ngenix.net/hls/CH_R01_TV7/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Русь Кострома
+http://rt-ct-kostroma-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_KOSTROMA_RUS/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Рыбинск-40
+http://rt-ct-yarl-htlive.cdn.ngenix.net/hls/CH_R01_RYBINSK40/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",С1 Сургут HD
+http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_C1_URAL_SUR/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Салям HD
+http://s45177.cdn.ngenix.net/hls/CH_R02_SALYAM/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Самара 24
+http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R03_SAMARA24/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Самотлор (Нижневартовск)
+http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R01_SAMOTLOR/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Сампо ТВ
+http://rt-nw-pzav-htlive.cdn.ngenix.net/hls/CH_R01_SAMPOTV/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Санкт-Петербург
+https://a787201987-rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R02_SPBREGIONALHD/playlist.m3u8
+#EXTINF:-1 group-title="Региoнальные",Санкт-Петербург HD
+http://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R02_SPBREGIONALHD/variant.m3u8?version=2
+#EXTINF:-1 group-title="КИНО" tvg-logo="https://www.veranzo.ru/other/icons/САПФИР.png",САПФИР
+https://s25617.cdn.ngenix.net/mdrm/CH_C04_FOXLIFEHD/manifest.mpd?token=JBZDQ5ZTA3NmQ4MjU1MWU4YzdhYTUzNWU5M2E1NDk1MGU
+#EXTINF:-1 group-title="Региoнальные",Саратов 24
+http://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R01_SARATOV24/variant.m3u8?version=2
+#EXTINF:-1 group-title="Развлекательные",Сарафан
+https://s25617.cdn.ngenix.net/mdrm/CH_C01_SARAFAN/manifest.mpd?token=JEMWUzYjA0N2MyNDNlY2JiYWU2NjhkMGQwYzg3M2FhMzI
+#EXTINF:-1 group-title="Региoнальные",Своё ТВ (Березники)
+http://rt-ural-perm-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SVOETV/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Своё ТВ Ставрополь HD
+http://rt-sth-stavr-htlive.cdn.ngenix.net/hls/CH_R03_STV-PLUS/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Сейм Курск
+http://rt-ct-kursk-htlive.cdn.ngenix.net/hls/CH_R01_SEIM/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Селенга-ТВ
+http://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_UUDE_SELENGA/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Семью семь (Ивановская область)
+http://rt-ct-ivan-htlive.cdn.ngenix.net/hls/CH_R03_7X7/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Сигма HD
+http://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIGMATV/variant.m3u8?version=2
+#EXTINF:-1 group-title="Познавательные",Совершенно секретно
+https://s25617.cdn.ngenix.net/mdrm/CH_SOVSEKRETNO/manifest.mpd?token=FMZjMyNGM5MGQ0NmFmNzM1ZjA3OGU5YzA2MmI0NmNkZGY
+#EXTINF:-1 group-title="Детские",Солнце
+https://s25617.cdn.ngenix.net/mdrm/CH_DISNEY_OTT/manifest.mpd?token=UmNzZlNzYwYzMzZTk5ZWRlMjlmYTE0N2Q1MGEzZTc4NDY
+#EXTINF:-1 group-title="Детские",Солнце (+2)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY_2/variant.m3u8?version=2
+#EXTINF:-1 group-title="Детские",Солнце (+4)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY_4/variant.m3u8?version=2
+#EXTINF:-1 group-title="Детские",Солнце (+7)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY_7/variant.m3u8?version=2
+#EXTINF:-1 group-title="ИНФОРМАЦИОННЫЕ",СОЛОВЬЁВLIVE
+https://s25617.cdn.ngenix.net/mdrm/CH_EURONEWS/manifest.mpd?token=UFNDk5MDYzMDhkZmMwZTM1YmMwYzg2YTIwYWJhNWE2MGI
+#EXTINF:-1 group-title="Региoнальные",Сочи 24 HD
+http://rt-sth-krdar-htlive.cdn.ngenix.net/hls/CH_R01_MAKS241/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие",Спас (+2)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_SPAS_2/variant.m3u8?version=2
+#EXTINF:-1 group-title="Спорт",Старт
+https://s25617.cdn.ngenix.net/mdrm/CH_STARTHD/manifest.mpd?token=XDNDA2MTRhOTRhN2NjNTllMDA3MDJiYWU4MmUwZDZlODM
+#EXTINF:-1 group-title="Спорт",Старт Триумф
+https://s25617.cdn.ngenix.net/mdrm/CH_STARTTRIUMFHD/manifest.mpd?token=RgZTg5MDMwMmU4NDQwYThiN2JjNTBkZjM4YWUyOTlmOGM
+#EXTINF:-1 group-title="Региoнальные",СТВ-Байкал
+http://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_UUDE_STVBAYKAL/variant.m3u8?version=2
+#EXTINF:-1 group-title="КИНО",Страшное HD
+https://s25617.cdn.ngenix.net/mdrm/CH_C01_STRASHNOEHD/manifest.mpd?token=CeZGNkZTlhNzViYjZkMGUzYWE3M2NiZDA2YmM5NDdmYzc
+
+#EXTINF:-1 group-title="Развлекательные",СТС
+http://zabava-htlive.cdn.ngenix.net/hls/CH_STS/variant.m3u8?version=2
+#EXTINF:-1 group-title="Развлекательные",СТС (+2)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_STS_2/variant.m3u8?version=2
+#EXTINF:-1 group-title="Развлекательные",СТС (+4)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_STS_4/variant.m3u8?version=2
+#EXTINF:-1 group-title="Развлекательные",СТС (+7)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_STS_7/variant.m3u8?version=2
+#EXTINF:-1 group-title="Развлекательные",СТС HD
+https://s25617.cdn.ngenix.net/mdrm/CH_STSHD_OTT/manifest.mpd?token=f8MTBiNDRkY2Q0ZDAzODI4YmMwN2RkMzFkYWM3NmJmYTg=
+#EXTINF:-1 group-title="Детские",СТС Kids HD
+https://s25617.cdn.ngenix.net/mdrm/CH_STSKIDSHD/manifest.mpd?token=DXNWFmNzQxMTIzYWYwN2U0N2ExZjNhM2E0ZGE5YTgwYmI
+
+#EXTINF:-1 group-title="Развлекательные",СТС Love
+http://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE/variant.m3u8?version=2
+#EXTINF:-1 group-title="Развлекательные",СТС Love (+2)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE_2/variant.m3u8?version=2
+#EXTINF:-1 group-title="Развлекательные",СТС Love (+4)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE_4/variant.m3u8?version=2
+#EXTINF:-1 group-title="Развлекательные",Суббота
+http://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER/variant.m3u8?version=2
+#EXTINF:-1 group-title="Развлекательные",Суббота (+2)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER_2/variant.m3u8?version=2
+#EXTINF:-1 group-title="Развлекательные",Суббота (+4)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER_4/variant.m3u8?version=2
+#EXTINF:-1 group-title="Развлекательные",Суббота (+7)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER_7/variant.m3u8?version=2
+
+#EXTINF:-1 group-title="Развлекательные",Суббота! HD
+https://s25617.cdn.ngenix.net/mdrm/CH_SUPERHD_OTT/manifest.mpd?token=4NYTY4NDI3YzIwNTVlZTJiZmUxZGJiOTAyYjgxZDVlMjc
+#EXTINF:-1 group-title="Детские",СуперГерои
+https://s25617.cdn.ngenix.net/mdrm/CH_MALYSHTV/manifest.mpd?token=AyMTJmMTI1MTliNWZjMDEwYzg1YzAzZjNlZjU3YjdjZDc
+#EXTINF:-1 group-title="Региoнальные",Сургут 24
+http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SURGUT24/variant.m3u8?version=2
+
+
+#EXTINF:-1 group-title="Познавательные",Т24
+https://s25617.cdn.ngenix.net/mdrm/CH_24TEHNO/manifest.mpd?token=QMZDFlM2M1NzdhM2U1NTk2YjE0MzgxZTMyNmNjMzkyNDA
+#EXTINF:-1 group-title="Региoнальные",Тагил-ТВ 24
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_OTT_TAGILTV_URAL_TAG/variant.m3u8?version=2
+#EXTINF:-1 group-title="Познавательные",Тайна
+https://s25617.cdn.ngenix.net/mdrm/CH_TAJNA/manifest.mpd?token=21ZTdhM2NkZTA4MjkwYWViYTQyYjQ2ZTRiY2Q3NTllMDc=
+#EXTINF:-1 group-title="Познавательные",Тайны Галактики HD
+https://s25617.cdn.ngenix.net/mdrm/CH_TAINYGALAKTIKIHD/manifest.mpd?token=ZiNjc3YmJlZjc4ZTU1MmZhNzU2NGEzNjhiNDhlNmIzODQ
+#EXTINF:-1 group-title="Региoнальные",Такт (Курск)
+http://rt-ct-kursk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_KURSK_TAKT/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Тамыр
+http://s45177.cdn.ngenix.net/hls/CH_R03_TAMYRTV/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Татарстан-24
+http://rt-vlg-kzn-htlive.cdn.ngenix.net/hls/CH_R02_EFIR24/variant.m3u8?version=2
+
+#EXTINF:-1 group-title="ЭФИРНЫЕ",ТВ Центр
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC/variant.m3u8?version=2
+#EXTINF:-1 group-title="Федеральные",ТВ Центр (+2)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC_2/variant.m3u8?version=2
+#EXTINF:-1 group-title="Федеральные",ТВ Центр (+4)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC_4/variant.m3u8?version=2
+#EXTINF:-1 group-title="Федеральные",ТВ Центр (+7)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC_7/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",ТВ Центр (Мурманск)
+http://rt-nw-murm-htlive.cdn.ngenix.net/hls/CH_R04_OTT_NW_MURM_TVC/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",ТВ-21+
+http://rt-nw-murm-htlive.cdn.ngenix.net/hls/CH_R01_TV21PLUS/variant.m3u8?version=2
+
+#EXTINF:-1 group-title="Развлекательные",ТВ-3
+https://zabava-htlive.cdn.ngenix.net/hls/CH_TV3/variant.m3u8
+#EXTINF:-1 group-title="Развлекательные",ТВ-3 HD
+https://s25617.cdn.ngenix.net/mdrm/CH_TV3HD_OTT/manifest.mpd?token=VbNzgxNjc4ZDc4YThhNjNjMDViM2ZjMGE2MjI3Njc2ODA
+#EXTINF:-1 group-title="Региoнальные",ТВ-7 (Абакан)
+http://rt-sib-abakan-htlive.cdn.ngenix.net/hls/CH_R01_TV7/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",ТВ-ИН (Магнитогорск)
+http://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R01_TVIN_MAGN/variant.m3u8?version=2
+
+#EXTINF:-1 group-title="Развлекательные",ТВ3 (+2)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TV3_2/variant.m3u8?version=2
+#EXTINF:-1 group-title="Развлекательные",ТВ3 (+4)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TV3_4/variant.m3u8?version=2
+#EXTINF:-1 group-title="Развлекательные",ТВ3 (+7)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TV3_7/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Тверской проспект
+http://rt-ct-tver-htlive.cdn.ngenix.net/hls/CH_R01_TVERPROSP/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",ТВК Красноярск HD
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_KRSK_TVK24/variant.m3u8?version=2
+#EXTINF:-1 group-title="КИНО",Театр
+https://s25617.cdn.ngenix.net/mdrm/CH_THEATERHD/manifest.mpd?token=X3MTE4NWI3NDE0YWQ1ZThmYTk4ZTg2ZmU4M2M2YjNiNjA
+#EXTINF:-1 group-title="Региoнальные",Телевитрина-Восток (Новосибирск)
+http://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R01_VITRINAVOSTOK/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Телеканал 86 Сургут HD
+http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TELEKANAL86/variant.m3u8?version=2
+#EXTINF:-1 group-title="Познавательные",ТЕЛЕКАФЕ
+https://s25617.cdn.ngenix.net/mdrm/CH_TELEKAFE/manifest.mpd?token=T1YTJiMmI4MjJmZjYzMTNjNzFhZjlhNmJjOTdjODc3NGM
+#EXTINF:-1 group-title="Развлекательные",Тео-ТВ
+https://rt-mos-htlive.cdn.ngenix.net/hls/CH_R01_TEOTV/variant.m3u8
+#EXTINF:-1 group-title="Развлекательные",ТЕО-ТВ HD
+http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R01_TEOTV/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Тивиком HD
+http://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R01_TIVICOM/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",ТК Вариант
+http://rt-ct-vlad-htlive.cdn.ngenix.net/hls/CH_R01_VARIANT_V/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",ТКР Рязань
+http://rt-ct-ryaz-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_RYAZ_TKP/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",ТНВ-Планета
+http://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R05_TNV/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",ТНВ-Планета
+http://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_TNV_PLANETA_URAL/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",ТНВ-Татарстан
+http://rt-vlg-kzn-htlive.cdn.ngenix.net/hls/CH_R01_TNVT/variant.m3u8?version=2
+#EXTINF:-1 group-title="Познавательные",Тномер
+https://s25617.cdn.ngenix.net/mdrm/CH_TNOMER/manifest.mpd?token=AbMzVkNzhiOGRlZDlkODM5NjE0NThhODZkM2ZhZjQ3MWY
+#EXTINF:-1 group-title="Региoнальные",ТНР24 (Нижневартовск)
+http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TNR24/variant.m3u8?version=2
+
+#EXTINF:-1 group-title="Развлекательные",ТНТ
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT/variant.m3u8?version=2
+#EXTINF:-1 group-title="Развлекательные",ТНТ (+2)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_2/variant.m3u8?version=2
+#EXTINF:-1 group-title="Развлекательные",ТНТ (+7)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_7/variant.m3u8?version=2
+#EXTINF:-1 group-title="Развлекательные",ТНТ HD
+https://s25617.cdn.ngenix.net/mdrm/CH_TNTHD/manifest.mpd?token=KNNDYyNTIyOTQwMzU1ODE2OTlmMTcwNmE5MTY0ZTUxZGQ
+#EXTINF:-1 group-title="Музыка",ТНТ MUSIC
+https://s25617.cdn.ngenix.net/mdrm/CH_AONE/manifest.mpd?token=NeZGNjMzMwOGExNzk5MjlkZTJkMThhZjZjNDMzNWIyMzI
+
+#EXTINF:-1 group-title="Развлекательные",ТНТ4
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4/variant.m3u8?version=2
+#EXTINF:-1 group-title="Развлекательные",ТНТ4 (+2)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_2/variant.m3u8?version=2
+#EXTINF:-1 group-title="Развлекательные",ТНТ4 (+4)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_4/variant.m3u8?version=2
+#EXTINF:-1 group-title="Развлекательные",ТНТ4 (+7)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_7/variant.m3u8?version=2
+#EXTINF:-1 group-title="Развлекательные",ТНТ4 HD
+https://s25617.cdn.ngenix.net/mdrm/CH_TNT4HD_OTT/manifest.mpd?token=RzMmZkMmE1MmZiN2JmMzU0NDgzNDU0MTdhZmZkZjVjYTM
+#EXTINF:-1 group-title="Региoнальные",Тобольское время
+http://rt-ural-tum-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TOBOLSKOEVREMYA/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",ТОЛК (Барнаул)
+http://rt-sib-bul-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_BUL_TOLK/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Толпар-ТВ (Уфа)
+http://s45177.cdn.ngenix.net/hls/CH_R02_TOLPAR/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Тольятти 24
+http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R01_TOLYTTI24/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Томское время HD
+http://rt-sib-tomsk-htlive.cdn.ngenix.net/hls/CH_R01_TOMSKVREMIA/variant.m3u8?version=2
+#EXTINF:-1 group-title="Познавательные",Точка отрыва
+https://s25617.cdn.ngenix.net/mdrm/CH_TOCHKAOTRYVA/manifest.mpd?token=QBNGJmODBjZjFiYTdlODNiYmZjNTI5NTY2MjRjMmRiMWQ
+#EXTINF:-1 group-title="Региoнальные",ТРК Канал-16 (Саров)
+http://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R01_KANAL16/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",ТРК Юганск
+http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R01_OTT_YUGANSK/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Тува 24 (Кызыл)
+http://s93498.cdn.ngenix.net/hls/CH_R01_TUVA24/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Туган Тел
+http://s45177.cdn.ngenix.net/hls/CH_R01_TUGANTEL/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Туринская телекомпания Вектор
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R01_OTT_VEKTOR/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Тюменское время
+http://rt-ural-tum-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TUMVR_URAL_TUM/variant.m3u8?version=2
+#EXTINF:-1 group-title="Спорт",УДАР
+https://s25617.cdn.ngenix.net/mdrm/CH_UFCHD/manifest.mpd?token=TTY2E4NjRjMTM4MmMwMzJjN2ZkZDEyYWZhZmU2ZjE3N2Y=
+#EXTINF:-1 group-title="Региoнальные",Удмуртия
+http://rt-vlg-izhsk-htlive.cdn.ngenix.net/hls/CH_R03_MYUDMURTIA/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Ульяновская правда
+http://rt-vlg-ul-htlive.cdn.ngenix.net/hls/CH_R01_ULPRAVDA/variant.m3u8?version=2
+#EXTINF:-1 group-title="Детские",Уникум
+https://s25617.cdn.ngenix.net/mdrm/CH_DETSKIJ/manifest.mpd?token=EXNjVlYjU4ZDNiYzhiNjRjYTQ4MjNlYTA2ZWRmMWM2ZGI
+#EXTINF:-1 group-title="Познавательные",Усадьба
+https://s25617.cdn.ngenix.net/mdrm/CH_USADBA/manifest.mpd?token=DFOTZmNDAyNDRkY2FjZWYwY2I3MjI0MzkzOWU1MzZlNmE
+#EXTINF:-1 group-title="КИНО",Феникс плюс Кино HD
+https://s25617.cdn.ngenix.net/mdrm/CH_FENIKSPLUSKINOHD/manifest.mpd?token=PCODcwZmU4NGE5ZTE0ZTJlZDMxZjY2ZmUwYTdjOGU2YWM
+#EXTINF:-1 group-title="Спорт",Футбол HD
+https://s25617.cdn.ngenix.net/mdrm/CH_FUTBALLHD/manifest.mpd?token=ABOWU3NjU3YjBkMWM4YjEwYjlkZmZiMzBiOTc0OTYxNjM
+#EXTINF:-1 group-title="Иностранные",Хабар 24
+https://s25617.cdn.ngenix.net/mdrm/CH_HABARHD/manifest.mpd?token=XvYWIzMTc1YWY1Y2I2MGFmNzM5NGJmMDhjNWQ1NmNiNWU
+#EXTINF:-1 group-title="Региoнальные",Хамдан-Калмыкия 24 (Элиста)
+http://rt-sth-elista-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_ELISTA_HAMDAN/variant.m3u8?version=2
+#EXTINF:-1 group-title="Познавательные",Центральное телевидение
+https://s25617.cdn.ngenix.net/mdrm/CH_CENTRALTV/manifest.mpd?token=LrNWVkMmE5Yjg2YTIzNTE0YzA1NGQ1YjdlOGQwMzdiNGI
+#EXTINF:-1 group-title="Региoнальные",Чаваш ЕН
+http://rt-vlg-chr-htlive.cdn.ngenix.net/hls/CH_R01_NATIONALTV/variant.m3u8?version=2
+#EXTINF:-1 group-title="Развлекательные",Че
+http://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ/variant.m3u8?version=2
+#EXTINF:-1 group-title="Развлекательные",Че (+2)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_CHE_2/variant.m3u8?version=2
+#EXTINF:-1 group-title="Развлекательные",Че (+4)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_CHE_4/variant.m3u8?version=2
+#EXTINF:-1 group-title="Развлекательные",Че (+7)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ_7/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Че (Омск)
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R02_OTT_SIB_OMSK_PERETZ/variant.m3u8?version=2
+#EXTINF:-1 group-title="Развлекательные",Че!
+https://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ/variant.m3u8
+#EXTINF:-1 group-title="Взрослые",Шалун HD
+https://s25617.cdn.ngenix.net/mdrm/CH_SHALUNTVHD/manifest.mpd?token=aTZWI2Yzk5ZmIwNjg0OWIwMTYwODVhZjNkNjJmMzkwM2Y=
+#EXTINF:-1 group-title="Музыка",Шансон ТВ
+https://s25617.cdn.ngenix.net/mdrm/CH_SHANSONTV/manifest.mpd?token=TRZmM1YjY0Y2U0NmQ4YWNhZjU0YjM5MTI2N2Q5ZmNlN2I
+#EXTINF:-1 group-title="Региoнальные",Шаян ТВ
+http://s45177.cdn.ngenix.net/hls/CH_R03_SHAYNTV/variant.m3u8?version=2
+#EXTINF:-1 group-title="Взрослые" tvg-logo="https://www.veranzo.ru/other/icons/Шёлк.png",Шёлк
+https://s25617.cdn.ngenix.net/mdrm/CH_SHELKHD/manifest.mpd?token=AhZWVmZjZjZWFkNGFmNTRkMGQ0YjQ2YWFhNTc2YzZiNWY=
+#EXTINF:-1 group-title="Региoнальные",Экспресс HD
+http://rt-vlg-penza-htlive.cdn.ngenix.net/hls/CH_R01_EXPRESS/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Эра-ТВ (Екатеринбург)
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R01_TNT4_EKT/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Эфир-24 Релакс
+http://rt-vlg-kzn-htlive.cdn.ngenix.net/hls/CH_R01_EFIR/variant.m3u8?version=2
+
+#EXTINF:-1 group-title="Развлекательные",Ю
+http://zabava-htlive.cdn.ngenix.net/hls/CH_U/variant.m3u8?version=2
+#EXTINF:-1 group-title="Развлекательные",Ю (+2)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_U_2/variant.m3u8?version=2
+#EXTINF:-1 group-title="Развлекательные",Ю (+4)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_U_4/variant.m3u8?version=2
+#EXTINF:-1 group-title="Развлекательные",Ю (+7)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_U_7/variant.m3u8?version=2
+#EXTINF:-1 group-title="Познавательные",Ювелирочка
+https://s25617.cdn.ngenix.net/mdrm/CH_JUVELIRTV/manifest.mpd?token=WLYWY4NGQ4MzUzODRmOTQyZDA0M2FiZjZmNzhhZjA0MzQ
+#EXTINF:-1 group-title="Региoнальные",Югорск ТВ
+http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R01_YUGORSKTV/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Югра
+http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_UGRA_URAL_SUR/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Юрган
+http://rt-nw-komi-htlive.cdn.ngenix.net/hls/CH_R01_YURGAN/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",ЮТВ Чебоксары
+http://rt-vlg-chr-htlive.cdn.ngenix.net/hls/CH_R01_UTV/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Якутия 24
+http://s34351.cdn.ngenix.net/hls/CH_R14_OTT_DV_YKT_YKT/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Ямал 1
+http://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_ARKTIKA24_URAL_YNF/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",Ямал-Регион
+http://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_YAMREG_URAL_YNF/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региoнальные",ё (Самара)
+http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R03_M1/variant.m3u8?version=2
